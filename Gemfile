@@ -8,6 +8,7 @@ gem 'rails', '3.1.1'
 gem 'pg'
 gem 'haml'
 
+
 gem 'json'
 
 # Gems used only for assets and not required
