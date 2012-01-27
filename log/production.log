@@ -1,0 +1,324 @@
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:16 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:17 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:28 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:28 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:28 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:28 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:29 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:29 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:29 -0500 2012
+
+PGError (FATAL:  the database system is starting up
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:29 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:30 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:30 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:31 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:31 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:31 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:31 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:42:33 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:42:33 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:43:29 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:43:29 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:43:30 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:43:30 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:43:30 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:43:30 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:43:47 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:43:47 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:46:07 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Wed Jan 25 20:46:07 -0500 2012
+
+PGError (FATAL:  database "production" does not exist
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)

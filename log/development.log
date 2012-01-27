@@ -1,0 +1,2143 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Tue Jan 24 20:23:03 -0500 2012
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:29:40 -0500 2012
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:32:27 -0500 2012
+
+LoadError (Expected /Users/josh/projects/elevatorux/app/controllers/elevator_controller.rb to define ElevatorController):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:32:28 -0500 2012
+
+LoadError (Expected /Users/josh/projects/elevatorux/app/controllers/elevator_controller.rb to define ElevatorController):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:32:43 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 23ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:erb, :coffee, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:34:05 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:erb, :coffee, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:34:06 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:erb, :coffee, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:34:38 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:erb, :coffee, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:34:39 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:erb, :coffee, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:35:13 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:35:49 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:38:10 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:43:47 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:43:48 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:43:49 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:45:34 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:45:35 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (107.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:46:38 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:49:49 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:49:55 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:51:54 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:55:52 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:55:53 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:55:55 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:56:20 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:56:25 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:56:25 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 20:56:26 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:24:56 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:24:56 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:25:10 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:43:29 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:43:30 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:45:11 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 21:51:13 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:02:12 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:13:11 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:13:12 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:13:20 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:13:40 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:13:41 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:20:59 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:23:43 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:25:05 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:25:25 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:25:25 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:25:26 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+  [1m[36m (14.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  SHOW search_path
+  [1m[36m (3.6ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'schema_migrations'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:25:32 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:25:33 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:28:16 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 22:28:17 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 23:12:20 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 23:26:17 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jan 24 23:34:32 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 18:27:27 -0500 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:46:31 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 40ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:coffee, :erb, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:46:48 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:coffee, :erb, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:46:48 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:coffee, :erb, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:47:02 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template elevator/show with {:handlers=>[:coffee, :erb, :builder], :locale=>[:en, :en], :formats=>[:html]}. Searched in:
+  * "/Users/josh/projects/elevatorux/app/views"
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:47:11 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (2.5ms)
+Completed 500 Internal Server Error in 36ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title>Ruby on Rails: Welcome aboard</title>
+    5:     <style type="text/css" media="screen">
+    6:       body {
+  app/views/elevator/show.html.haml:3
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:48:14 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (117.4ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jan 25 20:48:14 -0500 2012
+Served asset /rails.png - 200 OK (35ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:48:15 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Wed Jan 25 20:48:15 -0500 2012
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:48:46 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.9ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jan 25 20:48:47 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.1ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:29:20 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:29:30 -0500 2012
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:29:32 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.6ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:30:32 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:33:34 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.9ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:34:05 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.8ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:34:12 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (2.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:34:18 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.9ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:46:15 -0500 2012
+  Processing by ElevatorController#show as HTML
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `var' for #<ElevatorController:0x103d005a8>):
+  app/controllers/elevator_controller.rb:3:in `show'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:46:24 -0500 2012
+  Processing by ElevatorController#show as HTML
+ERROR: compiling _app_views_elevator_show_html_haml___1834497073_2178870980 RAISED compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kENSURE, expecting $end
+...Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u...
+                              ^
+Function body:           def _app_views_elevator_show_html_haml___1834497073_2178870980(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "elevator/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:escape_attrs=>true, :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:html5, :ugly=>false, :preserve=>["textarea", "pre", "code"], :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html>\n<html>\n  <head>\n    <title>HELLO!</title>\n  </head>\n  <body style='background: silver; text-align: center; margin: 100px auto'>\n    Hi\n", 2, false);
+
+
+
+
+
+ (1..@i)
+ (1..@j)
+_hamlout.push_text("    Hi\n", 0, false);end
+end
+_hamlout.push_text("  </body>\n</html>\n", -2, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11:in `compile'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:407:in `_run__1096844486__process_action__453433196__callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/sass-3.1.12/lib/sass/../sass/plugin/rack.rb:54:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands/server.rb:70:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:54
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49:in `tap'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered elevator/show.html.haml (6.2ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kENSURE, expecting $end
+...Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u...
+                              ^):
+    8:       - (1..@j)
+    9:         Hi
+    10: 
+    11:     
+  app/views/elevator/show.html.haml:11:in `compile'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:46:35 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.7ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (You don't need to use "- end" in Haml. Un-indent to close a block:
+- if foo?
+  %strong Foo!
+- else
+  Not foo.
+%p This line is un-indented, so it isn't part of the "if" block):
+    7:     - (1..@i)
+    8:       - (1..@j)
+    9:         Hi
+    10:       -end
+    11:     -end
+    12:         
+    13: 
+  app/views/elevator/show.html.haml:10
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:46:45 -0500 2012
+  Processing by ElevatorController#show as HTML
+ERROR: compiling _app_views_elevator_show_html_haml___1834497073_2177524320 RAISED compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kENSURE, expecting $end
+...Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u...
+                              ^
+Function body:           def _app_views_elevator_show_html_haml___1834497073_2177524320(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "elevator/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:escape_attrs=>true, :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:html5, :ugly=>false, :preserve=>["textarea", "pre", "code"], :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html>\n<html>\n  <head>\n    <title>HELLO!</title>\n  </head>\n  <body style='background: silver; text-align: center; margin: 100px auto'>\n    Hi\n", 2, false);
+
+
+
+
+
+ (1..@i)
+ (1..@j)
+_hamlout.push_text("    Hi\n", 0, false);end
+end
+_hamlout.push_text("    Thanks\n  </body>\n</html>\n", -2, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11:in `compile'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:407:in `_run__1096844486__process_action__453433196__callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/sass-3.1.12/lib/sass/../sass/plugin/rack.rb:54:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands/server.rb:70:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:54
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49:in `tap'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered elevator/show.html.haml (3.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kENSURE, expecting $end
+...Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u...
+                              ^):
+    8:       - (1..@j)
+    9:         Hi
+    10:     Thanks
+    11:         
+    12: 
+    13:     
+  app/views/elevator/show.html.haml:11:in `compile'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:47:09 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do |i|
+    8:       - (1..@j).each do |j|
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2176836640'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:47:09 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do |i|
+    8:       - (1..@j).each do |j|
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2176836640'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:48:08 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (38.0ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x103de3e98>:0x103ddfd48>):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     -i.times do
+    8:       - j.times do
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2179920900'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:48:16 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `times' for nil:NilClass):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     -@i.times do
+    8:       -@j.times do
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2179179040'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:48:29 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `times' for nil:NilClass):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     -@i.times do |i|
+    8:       -@j.times do |j|
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2178478080'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:07 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do |i|
+    8:       - (1..@j).each do |j|
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2177765240'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:08 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.9ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do |i|
+    8:       - (1..@j).each do |j|
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2177765240'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:13 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do |i2|
+    8:       - (1..@j).each do |j2|
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2176348820'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:19 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (92.9ms)
+Completed 500 Internal Server Error in 99ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do
+    8:       - (1..@j).each do
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2175774620'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:42 -0500 2012
+  Processing by ElevatorController#show as HTML
+ERROR: compiling _app_views_elevator_show_html_haml___1834497073_2179486800 RAISED compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:9: syntax error, unexpected kEND, expecting ')'
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kENSURE, expecting ')'
+...Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u...
+                              ^
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kEND, expecting ')'
+...ffer.upper if @haml_buffer;end;
+                              ^
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:14: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_elevator_show_html_haml___1834497073_2179486800(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "elevator/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:escape_attrs=>true, :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:html5, :ugly=>false, :preserve=>["textarea", "pre", "code"], :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html>\n<html>\n  <head>\n    <title>HELLO!</title>\n  </head>\n  <body style='background: silver; text-align: center; margin: 100px auto'>\n    Hi\n", 2, false);
+
+
+
+
+
+ (1..#{i}).each do
+ (1..#{j}).each do
+_hamlout.push_text("    Hi\n", 0, false);end
+end
+_hamlout.push_text("    Thanks\n  </body>\n</html>\n", -2, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:14:in `compile'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:407:in `_run__1096844486__process_action__453433196__callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/sass-3.1.12/lib/sass/../sass/plugin/rack.rb:54:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands/server.rb:70:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:54
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49:in `tap'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered elevator/show.html.haml (5.4ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:9: syntax error, unexpected kEND, expecting ')'
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kENSURE, expecting ')'
+...Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u...
+                              ^
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:11: syntax error, unexpected kEND, expecting ')'
+...ffer.upper if @haml_buffer;end;
+                              ^
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:14: syntax error, unexpected kEND, expecting ')'):
+    6:     Hi
+    7:     - (1..#{i}).each do
+    8:       - (1..#{j}).each do
+    9:         Hi
+    10:     Thanks
+    11:         
+    12: 
+  app/views/elevator/show.html.haml:14:in `compile'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:50 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (25.8ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x103bc9130>:0x103bc3870>):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..i).each do
+    8:       - (1..j).each do
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2178813360'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:49:55 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (bad value for range):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 100px auto"}
+    6:     Hi
+    7:     - (1..@i).each do
+    8:       - (1..@j).each do
+    9:         Hi
+    10:     Thanks
+  app/views/elevator/show.html.haml:7:in `_app_views_elevator_show_html_haml___1834497073_2177999020'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:53:16 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (5.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:53:17 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.2ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:53:22 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (2.7ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:53:36 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (6.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:54:19 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:54:31 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.4ms)
+Completed 200 OK in 101ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:54:40 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:54:45 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:55:07 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:55:17 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.2ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:55:30 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.8ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:55:38 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.1ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:56:05 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (bad value for range):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - (1..@i).each do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2178297360'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:56:08 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (27.4ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x103974c68>:0x10396f920>):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - (1..i).each do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2177590200'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:56:15 -0500 2012
+  Processing by ElevatorController#show as HTML
+ERROR: compiling _app_views_elevator_show_html_haml___1834497073_2176725660 RAISED compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:8: odd number list for Hash
+ (1..{@i}).each do
+         ^
+Function body:           def _app_views_elevator_show_html_haml___1834497073_2176725660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "elevator/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:escape_attrs=>true, :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:html5, :ugly=>false, :preserve=>["textarea", "pre", "code"], :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html>\n<html>\n  <head>\n    <title>HELLO!</title>\n  </head>\n  <body style='background: silver; text-align: center; margin: 10px auto'>\n    <h3>Elevator Time!</h3>\n    <table style='padding: 10px; margin: 10px auto'>\n", 3, false);
+
+
+
+
+
+
+ (1..{@i}).each do
+_hamlout.push_text("      <tr>\n", 1, false);
+ (1..2).each do
+_hamlout.push_text("        <td style='padding: 100px;'>HI</td>\n", 0, false);end
+_hamlout.push_text("      </tr>\n", -1, false);end
+_hamlout.push_text("    </table>\n    Thanks\n  </body>\n</html>\n", -3, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:16:in `compile'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:407:in `_run__1096844486__process_action__453433196__callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/sass-3.1.12/lib/sass/../sass/plugin/rack.rb:54:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands/server.rb:70:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:54
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49:in `tap'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered elevator/show.html.haml (3.6ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (compile error
+/Users/josh/projects/elevatorux/app/views/elevator/show.html.haml:8: odd number list for Hash
+ (1..{@i}).each do
+         ^):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - (1..{@i}).each do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:16:in `compile'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:56:19 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.5ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (bad value for range):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - (1..@i).each do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2179785760'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:58:49 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `each' for 2:Fixnum):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 2.each do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2179096580'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 17:59:47 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:08 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.4ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (comparison of Fixnum with nil failed):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 1.upto(@i) do
+    9:         %tr
+    10:           - 1.upto(@j) do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `upto'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2178106300'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:21 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.6ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (comparison of Fixnum with nil failed):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 0.upto(@i) do
+    9:         %tr
+    10:           - 1.upto(@j).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `upto'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2177342240'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:30 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.2ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (comparison of Fixnum with nil failed):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 0.upto(@i) do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `upto'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2176582780'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:31 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (comparison of Fixnum with nil failed):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 0.upto(@i) do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `upto'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2176582780'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:34 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:37 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.6ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 0.upto(j) do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `j'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2179681140'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:39 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (5.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (comparison of Fixnum with nil failed):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 0.upto(@j) do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `upto'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2178946220'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:41 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (comparison of Fixnum with nil failed):
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h3 Elevator Time!
+    7:     %table{:style=> "padding: 10px; margin: 10px auto"}
+    8:       - 0.upto(@i) do
+    9:         %tr
+    10:           - (1..2).each do
+    11:             %td{:style=> "padding: 100px;"} HI
+  app/views/elevator/show.html.haml:8:in `upto'
+  app/views/elevator/show.html.haml:8:in `_app_views_elevator_show_html_haml___1834497073_2178213900'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:00:53 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.2ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:01:07 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:01:14 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:01:28 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.6ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:01:32 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (5.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:01:34 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.0ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:02:08 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.5ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:02:36 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.7ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h2 Level 1 (3x3) -- Pick floor #
+    7:      %b 8
+    8:     %table{:style=> "padding: 5px; margin: 10px auto"}
+    9:       - 1.upto(@i) do
+    10:         %tr
+  app/views/elevator/show.html.haml:7
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:02:40 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (1.7ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h2 and nested within it.):
+    4:     %title HELLO!
+    5:   %body{:style => "background: silver; text-align: center; margin: 10px auto"}
+    6:     %h2 Level 1 (3x3) -- Pick floor #
+    7:       %b 8
+    8:     %table{:style=> "padding: 5px; margin: 10px auto"}
+    9:       - 1.upto(@i) do
+    10:         %tr
+  app/views/elevator/show.html.haml:7
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:02:45 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.1ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:02:50 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.4ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:02:54 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.3ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:03:09 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (3.8ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:03:56 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.2ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:04:34 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (6.7ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:06:06 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.9ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:06:31 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (101.1ms)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:06:43 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.7ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:06:49 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.5ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:09:33 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.1ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:09:42 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (6.8ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:09:52 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.1ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:10:37 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (14.5ms)
+Completed 200 OK in 24ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:10:47 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.6ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:10:48 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.5ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:10:54 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.2ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:10:58 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.3ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:11:01 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (4.1ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:11:07 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.6ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jan 26 18:11:15 -0500 2012
+  Processing by ElevatorController#show as HTML
+Rendered elevator/show.html.haml (0.9ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
