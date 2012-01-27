@@ -10,6 +10,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20120127211856) do
+
+  create_table "rides", :force => true do |t|
+    t.string   "ip_address"
+    t.integer  "session_id"
+    t.float    "timetoclick"
+    t.integer  "rows"
+    t.integer  "columns"
+    t.integer  "floor"
+    t.datetime "created"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
