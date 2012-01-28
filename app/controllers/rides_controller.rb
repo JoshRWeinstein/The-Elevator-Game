@@ -17,7 +17,7 @@ class RidesController < ApplicationController
     @ride[:columns] = @j
     @ride[:floor] = @floor
     @ride[:session_id] = session[:current_user_id]
-    @ride[:ip_address] = request.env['REMOTE_HOST']
+    @ride[:ip_address] = request.remote_ip
     @ride.save
   end
   

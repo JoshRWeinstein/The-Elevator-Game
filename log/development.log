@@ -14534,3 +14534,28 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jan 27 23:03:34 -0500 2012
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jan 27 23:19:29 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.3ms)[0m  INSERT INTO "rides" ("columns", "created_at", "floor", "ip_address", "rows", "session_id", "timetoclick", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["columns", 5], ["created_at", Sat, 28 Jan 2012 04:19:30 UTC +00:00], ["floor", 19], ["ip_address", "emory.gc.local"], ["rows", 4], ["session_id", nil], ["timetoclick", nil], ["updated_at", Sat, 28 Jan 2012 04:19:30 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (15.8ms)
+Completed 200 OK in 304ms (Views: 250.2ms | ActiveRecord: 30.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Jan 27 23:19:30 -0500 2012
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Jan 27 23:19:30 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Jan 27 23:19:30 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Jan 27 23:19:30 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
