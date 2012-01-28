@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120127224217) do
+ActiveRecord::Schema.define(:version => 20120128204615) do
 
   create_table "rides", :force => true do |t|
     t.string   "ip_address"
@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(:version => 20120127224217) do
     t.integer  "floor"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "top"
+    t.integer  "config"
   end
 
 end

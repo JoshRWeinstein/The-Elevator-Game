@@ -8,8 +8,34 @@
         Click on floor...
       %h1 
         = @floor
-    - var = @i * @j - @j + 1 
-    %table{:style=> "padding: 5px; margin: 0px auto"}
+      #div{:style => "margin-top: 100px"}
+        Rides:
+        %br
+        = @ridecount
+        %br
+        %br
+        Floors Travelled:
+        %br
+        = @floorcount
+        %br
+        %br
+        Time in Elevator:
+        %br
+        = @timecount
+    - if @config < 2
+      - var = @i * @j - @j + 1
+    - else
+      - var = 1
+    
+    %table{:style=> "padding: 5px; text-align: center; width: 50%; margin: 50px auto"}
+      - if @config < 1
+        %tr
+          %td{:colspan => "5"}
+            - if @floor == 1 
+              = form_for @ride,  :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
+                = f.submit "1", :style= => "color: black;"
+            - else
+              1
       - 1.upto(@i) do |rows|
         %tr
           - 1.upto(@j) do
@@ -22,8 +48,8 @@
               - else 
                 = var
               - var += 1
-          - var -= 2*@j
-      
+          - if @config <2
+            - var -= 2*@j
 
         
 
