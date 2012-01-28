@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ip_address: MyString
+  session_id: 1
+  timetoclick: 1.5
+  rows: 1
+  columns: 1
+  floor: 1
+  created: 2012-01-27 16:18:56
+
+two:
+  ip_address: MyString
+  session_id: 1
+  timetoclick: 1.5
+  rows: 1
+  columns: 1
+  floor: 1
+  created: 2012-01-27 16:18:56

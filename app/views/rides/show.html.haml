@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+    %title You're in an elevator!
+  %body{:style => "background: silver; text-align: center; width: 100%; margin: 10px auto"}
+    #left{:style=>"width: 300px; margin-top: 50px; margin-left: 50px; float: left"}
+      %h2
+        Click on floor...
+      %h1 
+        = @floor
+    - var = @i * @j - @j + 1 
+    %table{:style=> "padding: 5px; margin: 0px auto"}
+      - 1.upto(@i) do |rows|
+        %tr
+          - 1.upto(@j) do
+            %td{:style=> "padding: 50px;"}
+              - if var == @floor
+                -#
+                = form_for @ride,  :url => { :action => "update", :ride_id => @ride.id } do |f|
+                  
+                  = f.submit "#{var}", :style= => "color: black; width: 100px; height: 200px"  
+              - else 
+                = var
+              - var += 1
+          - var -= 2*@j
+      
+
+        
+
+    
