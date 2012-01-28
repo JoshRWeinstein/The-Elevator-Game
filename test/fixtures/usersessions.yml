@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  rides: 1
+  floors: 1
+  time: 1.5
+
+two:
+  rides: 1
+  floors: 1
+  time: 1.5
