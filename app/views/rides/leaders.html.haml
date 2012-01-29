@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %title You're in an elevator!
+  %body{:style => "background: silver; text-align: center; width: 100%; margin: 10px auto"}
+    #left{:style=>"width: 300px; margin-top: 50px; margin-left: 50px; float: left"}
+      %h2
+        The Leaders
+      %br
+      %br
+      %br
+      %br
+      %a{:href => "/"} Back to the elevator
+    
+    %table{:style=> "padding: 5px; text-align: center; width: 50%; margin: 50px auto"}
+      %tr
+        %td Rides
+        %td Floors
+        %td Time
+      - @leaders.each do |leader|
+        %tr
+          %td
+            = leader.rides
+          %td
+            = leader.floors
+          %td
+            = leader.time
+        
