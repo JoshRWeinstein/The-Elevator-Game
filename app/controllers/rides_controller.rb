@@ -69,6 +69,9 @@ class RidesController < ApplicationController
   
   def leaders
   @leaders = Usersession.find(:all, :order => "rides desc", :limit => 10)
+  @ridecount = session[:ridecount]
+  @floorcount = session[:floorcount]
+
   end
   
 end

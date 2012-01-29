@@ -2,21 +2,38 @@
 %html
   %head
     %title You're in an elevator!
-  %body{:style => "background: silver; text-align: center; width: 100%; margin: 10px auto"}
-    #left{:style=>"width: 300px; margin-top: 50px; margin-left: 50px; float: left"}
+  %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    #left{:style=>"width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px inset black; height: 400px"}
       %h2
-        The Leaders
-      %br
-      %br
-      %br
-      %br
-      %a{:href => "/"} Back to the elevator
+        My stats
+      %h1{:style => "color: red"} 
+        = @floor
+      %hr
+      #div{:style => "margin-top: 30px"}
+        %h3 The Elevator Game
+        %h4 Click your way to the top!
+        Rides:
+        %br
+        = @ridecount
+        %br
+        %br
+        Floors Travelled:
+        %br
+        = @floorcount
+        %br
+        %br
+        -#
+          Time in Elevator:
+          %br
+          = @timecount
+          seconds
+        %a{:href => "/", :style => "color: blue"}Back to the elevator
     
-    %table{:style=> "padding: 5px; text-align: center; width: 50%; margin: 50px auto"}
+    %table{:style=> "padding: 5px; text-align: center; width: 50%; margin: 0px auto"}
       %tr
         %td Rides
         %td Floors
-        %td Time
+        %td Time in seconds
       - @leaders.each do |leader|
         %tr
           %td
