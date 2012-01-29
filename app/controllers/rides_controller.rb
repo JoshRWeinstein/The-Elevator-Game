@@ -7,7 +7,7 @@ class RidesController < ApplicationController
     else
       @jw[:top] = false
     end
-    
+    session[:last] = @jw[:floor] 
     @jw[:timetoclick] = (Time.now - @jw[:created_at])
     session[:timecount] += @jw[:timetoclick]
     session[:ridecount] += 1
@@ -30,8 +30,11 @@ class RidesController < ApplicationController
     @j = 5
 
     @lobbyweight = 1 + rand(100)
-    if @lobbyweight > 25
+    if @lobbyweight > 25 || session[:last] == 1
       @floor = 1 + rand(@i*@j)
+      while (@floor == session[:last])
+        @floor = 1 + rand(@i*@j)
+      end
     else
       @floor = 1
     end
@@ -68,7 +71,7 @@ class RidesController < ApplicationController
   end  
   
   def leaders
-  @leaders = Usersession.find(:all, :order => "rides desc", :limit => 10)
+  @leaders = Usersession.find(:all, :order => "rides desc, floors desc", :limit => 25)
   @ridecount = session[:ridecount]
   @floorcount = session[:floorcount]
 

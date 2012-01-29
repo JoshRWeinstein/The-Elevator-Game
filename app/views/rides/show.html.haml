@@ -2,6 +2,12 @@
 %html
   %head
     %title You're in an elevator!
+    :javascript
+      $('.pickme').live('click', function(){ 
+          $('form', this).submit();
+          return false;
+      });
+      
   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
     #left{:style=>"width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px inset black; height: 400px"}
       %h2
@@ -38,8 +44,8 @@
       - if @config < 1
         %tr
           - if @floor == 1 
-            %td{:colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :id => "pickme"}
-              = form_for @ride,  :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
+            %td{:colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :class => "pickme"}
+              = form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
                 = f.submit "1", :style= => "color: black;"
           - else
             %td{:colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;"}
@@ -48,8 +54,8 @@
         %tr
           - 1.upto(@j) do
             - if var == @floor
-              %td{:style=> "width: 50px; height: 100px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :id => "pickme"}
-                = form_for @ride,  :url => { :action => "update", :ride_id => @ride.id } do |f|
+              %td{:style=> "width: 50px; height: 100px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :class => "pickme"}
+                = form_for @ride, :url => { :action => "update", :ride_id => @ride.id } do |f|
                   = f.submit "#{var}", :style= => "color: black; width: 100px; height: 200px"  
             - else
               %td{:style=> "width: 50px; height: 100px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;"} 
@@ -60,8 +66,8 @@
       - if @config > 1
         %tr
           - if @floor == 1 
-            %td{:colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :id => "pickme"}
-              = form_for @ride,  :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
+            %td{:colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :class => "pickme"}
+              = form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
                 = f.submit "1", :style= => "color: black;"
           - else
             %td{:colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;"}
