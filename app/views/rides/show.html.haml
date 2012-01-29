@@ -19,10 +19,13 @@
         = @floorcount
         %br
         %br
-        Time in Elevator:
-        %br
-        = @timecount
-        seconds
+        -#
+          Time in Elevator:
+          %br
+          = @timecount
+          seconds
+        %a{:href => "/leaders"} Leaderboard
+        
     - if @config < 2
       - var = @i * @j - @j + 1
     - else
