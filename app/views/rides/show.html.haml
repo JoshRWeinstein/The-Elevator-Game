@@ -51,6 +51,14 @@
               - var += 1
           - if @config <2
             - var -= 2*@j
+      - if @config > 1
+        %tr
+          %td{:colspan => "5"}
+            - if @floor == 1 
+              = form_for @ride,  :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
+                = f.submit "1", :style= => "color: black;"
+            - else
+              1
 
         
 

@@ -16,15 +16,16 @@ class RidesController < ApplicationController
     @sesh[:rides] = session[:ridecount]
     @sesh[:time] = session[:timecount]
     @sesh[:floors] = session[:floorcount]
+    @sesh[:config] = session[:config]
     @sesh.save
     @jw.save
     redirect_to root_url
   end
   
-  ##setup different configurations 0) lobby top and bottom 1) standard 2) telephone
+  ##setup different configurations 0) lobby top and bottom 1) standard 2) telephone [need to add lobby on bottom!!!]
   ##always 4 rows 5 columns
   def show
-    @config = rand(3)
+    
     @i = 4
     @j = 5
 
@@ -34,15 +35,16 @@ class RidesController < ApplicationController
     else
       @floor = 1
     end
-    if !session[:ridecount] || !session[:floorcount] || !session[:timecount] || !session[:seshid]
+    if !session[:ridecount] || !session[:floorcount] || !session[:timecount] || !session[:seshid] || !session[:config]
       @usersesh = Usersession.new
       @usersesh.save
       session[:seshid] = @usersesh[:id] 
       session[:ridecount] = 0
       session[:floorcount] = 0
       session[:timecount] = 0
+      session[:config] = rand(3)
     end
-
+    @config = session[:config]
     @ridecount = session[:ridecount]
     @floorcount = session[:floorcount]
     @timecount =  session[:timecount]
