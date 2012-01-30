@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Elevatorux::Application.load_tasks
+Elevatorgame::Application.load_tasks
