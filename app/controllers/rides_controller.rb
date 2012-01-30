@@ -65,6 +65,7 @@ class RidesController < ApplicationController
     @ride[:floor] = @floor
     @ride[:ip_address] = request.remote_ip
     @ride.save
+    session[:last] = 0 
   end
   
   def index
