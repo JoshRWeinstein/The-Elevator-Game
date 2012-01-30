@@ -50802,3 +50802,570 @@ Served asset /application.css - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:00:50 -0500 2012
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:35:35 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (1.8ms)[0m  BEGIN
+  [1m[36mSQL (3.8ms)[0m  [1mINSERT INTO "usersessions" ("config", "created_at", "floors", "name", "rides", "time", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["config", nil], ["created_at", Mon, 30 Jan 2012 03:35:35 UTC +00:00], ["floors", nil], ["name", nil], ["rides", nil], ["time", nil], ["updated_at", Mon, 30 Jan 2012 03:35:35 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  [1m[36m (10.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 2], ["created_at", Mon, 30 Jan 2012 03:35:35 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", nil], ["rows", 4], ["session_id", 51], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:35:35 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (181.0ms)
+Completed 200 OK in 254ms (Views: 194.7ms | ActiveRecord: 31.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:35:35 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:35 -0500 2012
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:35 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:35 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:35:37 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[35mUsersession Load (0.6ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25
+Rendered rides/leaders.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 66ms (Views: 46.0ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:37 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:37 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:37 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:35:37 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:35:44 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (4.4ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (28.2ms)
+Completed 200 OK in 71ms (Views: 45.0ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:35:44 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:44 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:44 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:44 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:35:47 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[35mUsersession Load (0.7ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25
+Rendered rides/leaders.html.haml within layouts/application (370.0ms)
+Completed 200 OK in 431ms (Views: 403.0ms | ActiveRecord: 14.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:47 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (12ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:47 -0500 2012
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:35:47 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:35:47 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:39:52 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (2.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:39:52 UTC +00:00], ["floor", 16], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:39:52 UTC +00:00]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 52ms (Views: 17.5ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:39:52 -0500 2012
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:39:52 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:39:52 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:39:52 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:40:20 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:40:20 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:40:20 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 54ms (Views: 37.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:20 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:20 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:20 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:40:20 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:40:31 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:40:31 UTC +00:00], ["floor", 11], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:40:31 UTC +00:00]]
+  [1m[36m (8.7ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (24.7ms)
+Completed 200 OK in 62ms (Views: 39.0ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:40:31 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:31 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:31 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:31 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:40:35 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:40:35 UTC +00:00], ["floor", 11], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:40:35 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (42.7ms)
+Completed 200 OK in 85ms (Views: 55.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:36 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:36 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:36 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:40:36 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:40:43 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:40:43 UTC +00:00], ["floor", 6], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:40:43 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (39.4ms)
+Completed 200 OK in 72ms (Views: 55.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:40:43 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:43 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:43 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:43 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:40:58 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (1.4ms)[0m  BEGIN
+  [1m[36mSQL (7.6ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:40:58 UTC +00:00], ["floor", 20], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:40:58 UTC +00:00]]
+  [1m[35m (2.2ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (26.7ms)
+Completed 200 OK in 69ms (Views: 42.0ms | ActiveRecord: 15.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:58 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:58 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:40:58 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:40:58 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:41:02 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:41:02 UTC +00:00], ["floor", 12], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:41:02 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (67.3ms)
+Completed 200 OK in 317ms (Views: 105.7ms | ActiveRecord: 12.1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:02 -0500 2012
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:02 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:41:02 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:02 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:41:15 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (3.2ms)[0m  BEGIN
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 03:41:15 UTC +00:00], ["floor", 14], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:41:15 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (25.3ms)
+Completed 200 OK in 62ms (Views: 38.6ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:41:15 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:15 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:15 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:15 -0500 2012
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:41:30 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 2], ["created_at", Mon, 30 Jan 2012 03:41:30 UTC +00:00], ["floor", 7], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 51], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:41:30 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 36ms (Views: 21.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:41:30 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:30 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:30 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:30 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:41:38 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (1.4ms)[0m  BEGIN
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "usersessions" ("config", "created_at", "floors", "name", "rides", "time", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["config", nil], ["created_at", Mon, 30 Jan 2012 03:41:38 UTC +00:00], ["floors", nil], ["name", nil], ["rides", nil], ["time", nil], ["updated_at", Mon, 30 Jan 2012 03:41:38 UTC +00:00]]
+  [1m[35m (27.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 0], ["created_at", Mon, 30 Jan 2012 03:41:38 UTC +00:00], ["floor", 9], ["ip_address", "127.0.0.1"], ["last", nil], ["rows", 4], ["session_id", 52], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:41:38 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 79ms (Views: 16.5ms | ActiveRecord: 37.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:38 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:38 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:41:38 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:41:38 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:42:07 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 0], ["created_at", Mon, 30 Jan 2012 03:42:07 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 52], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:42:07 UTC +00:00]]
+  [1m[35m (26.2ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (49.0ms)
+Completed 200 OK in 114ms (Views: 62.4ms | ActiveRecord: 28.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:42:08 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:08 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:08 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:08 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:42:09 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (5.1ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (40.7ms)
+Completed 200 OK in 91ms (Views: 57.3ms | ActiveRecord: 28.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:42:10 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:10 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:10 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:10 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:42:18 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (2.5ms)[0m  BEGIN
+  [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 0], ["created_at", Mon, 30 Jan 2012 03:42:18 UTC +00:00], ["floor", 9], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 52], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:42:18 UTC +00:00]]
+  [1m[35m (10.1ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 51ms (Views: 17.1ms | ActiveRecord: 22.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:42:18 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:18 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:18 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:18 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:42:24 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (0.6ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 32ms (Views: 22.9ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:24 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:42:24 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:24 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:24 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:42:28 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 0], ["created_at", Mon, 30 Jan 2012 03:42:28 UTC +00:00], ["floor", 15], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 52], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:42:28 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 44ms (Views: 25.1ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:42:28 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:28 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:28 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:42:28 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:43:03 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (2.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 0], ["created_at", Mon, 30 Jan 2012 03:43:03 UTC +00:00], ["floor", 16], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 52], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:43:03 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 35ms (Views: 16.1ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:43:03 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:03 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:03 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:03 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:43:04 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[35mUsersession Load (1.3ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25
+Rendered rides/leaders.html.haml within layouts/application (34.9ms)
+Completed 200 OK in 76ms (Views: 54.3ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:04 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:04 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:04 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:43:04 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 22:43:09 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (5.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 0], ["created_at", Mon, 30 Jan 2012 03:43:09 UTC +00:00], ["floor", 10], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 52], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 03:43:09 UTC +00:00]]
+  [1m[36m (4.4ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 51ms (Views: 16.7ms | ActiveRecord: 22.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:43:09 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:09 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:09 -0500 2012
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:43:09 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 22:46:30 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[35mUsersession Load (0.6ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25
+Rendered rides/leaders.html.haml within layouts/application (20.3ms)
+Completed 200 OK in 166ms (Views: 44.4ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 22:46:30 -0500 2012
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 22:46:30 -0500 2012
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 22:46:30 -0500 2012
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 22:46:30 -0500 2012
+Served asset /application.js - 200 OK (0ms)
