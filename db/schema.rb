@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120129065953) do
+ActiveRecord::Schema.define(:version => 20120130012258) do
 
   create_table "rides", :force => true do |t|
     t.string   "ip_address"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(:version => 20120129065953) do
     t.datetime "updated_at"
     t.boolean  "top"
     t.integer  "config"
+    t.integer  "last"
   end
 
   create_table "usersessions", :force => true do |t|
@@ -32,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20120129065953) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "config"
+    t.string   "name"
   end
 
 end

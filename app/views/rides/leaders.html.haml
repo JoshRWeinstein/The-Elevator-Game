@@ -3,9 +3,10 @@
   %head
     %title You're in an elevator!
   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
-    #left{:style=>"width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px inset black; height: 400px"}
+    #left{:style=>"width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px double black; height: 500px"}
       %h2
-        My stats
+        Leaders
+      %a{:href => "/", :style => "color: blue"}Back to the elevator
       %h1{:style => "color: red"} 
         = @floor
       %hr
@@ -13,12 +14,10 @@
         %h3 The Elevator Game
         %h4 Click your way to the top!
         Rides:
-        %br
         = @ridecount
         %br
         %br
         Floors Travelled:
-        %br
         = @floorcount
         %br
         %br
@@ -27,13 +26,35 @@
           %br
           = @timecount
           seconds
-        %a{:href => "/", :style => "color: blue"}Back to the elevator
+        Name:
+        %br
+        - if session[:name] && session[:name] != ""
+          = session[:name]
+          %br
+          
+        - else
+          = form_for "", :url => { :action => "nameentry" } do |l|
+            %input{:name => :name, :maxlength => "20"}
+            = l.submit
+        %br
+        %hr
+        %br
+        This is a project for a
+        %br
+        %a{:href => "http://www.joshrweinstein.com", :style => "color: blue"}JoshRWeinstein.com
+        %br
+        blog post on UX
     
     %table{:style=> "padding: 5px; text-align: center; width: 50%; margin: 0px auto"}
       %tr
-        %td Rides
-        %td Floors
-        %td Time in seconds
+        %td
+          %h2 Rides
+        %td
+          %h2 Floors
+        %td
+          %h2 Time in seconds
+        %td
+          %h2 Name
       - @leaders.each do |leader|
         %tr
           %td
@@ -42,4 +63,9 @@
             = leader.floors
           %td
             = leader.time
+          %td
+            -if leader.name
+              = leader.name
+            -else
+              Anonymous Rider
         

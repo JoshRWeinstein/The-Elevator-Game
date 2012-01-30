@@ -3,5 +3,5 @@ Elevatorux::Application.routes.draw do
   resources :rides
   match "rides/update" => 'rides#update'
   match "leaders" => 'rides#leaders'
-  
+  match "rides/nameentry" => 'rides#nameentry'
 end

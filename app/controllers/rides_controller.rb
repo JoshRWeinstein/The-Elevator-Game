@@ -38,9 +38,11 @@ class RidesController < ApplicationController
     else
       @floor = 1
     end
-    if !session[:ridecount] || !session[:floorcount] || !session[:timecount] || !session[:seshid] || !session[:config]
+    if !session[:seshid]
       @usersesh = Usersession.new
       @usersesh.save
+    end
+    if !session[:ridecount] || !session[:floorcount] || !session[:timecount] || !session[:config]
       session[:seshid] = @usersesh[:id] 
       session[:ridecount] = 0
       session[:floorcount] = 0
@@ -53,6 +55,9 @@ class RidesController < ApplicationController
     @timecount =  session[:timecount]
 
     @ride = Ride.new
+    if session[:last]
+      @ride[:last] = session[:last]
+    end
     @ride[:session_id] = session[:seshid]
     @ride[:config] = @config
     @ride[:rows] = @i
@@ -70,11 +75,38 @@ class RidesController < ApplicationController
   
   end  
   
+  def nameentry
+    
+    if params[:name] != "" && isclean(params[:name].downcase)
+      if !session[:seshid]
+        @usersesh = Usersession.new
+        @usersesh.save
+        session[:seshid] = @usersesh[:id]
+      end
+      @jw = Usersession.find(session[:seshid])
+      @jw[:name] = params[:name]
+      session[:name] = @jw[:name]
+      @jw.save
+    end
+    redirect_to "/leaders"
+  end
+  
+  
+  def isclean(name)
+    badwords = ['pussy', 'fuck', 'shit', 'bitch', 'fag', 'homo', 'cock', 'asshole', 'slut', 'whore']
+    badwords.each do |x|
+      if name.index(x)
+        return false
+      end
+    end  
+    return true
+  end
   def leaders
-  @leaders = Usersession.find(:all, :order => "rides desc, floors desc", :limit => 25)
-  @ridecount = session[:ridecount]
-  @floorcount = session[:floorcount]
-
+  
+  @leaders = Usersession.find(:all, :conditions => "rides >= 0", :order => "rides desc, floors desc", :limit => 25)
+  @ridecount = session[:ridecount] || 0
+  @floorcount = session[:floorcount] || 0
+  @name = session[:name]
   end
   
 end
