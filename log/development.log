@@ -48799,3 +48799,1168 @@ Served asset /application.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 20:57:35 -0500 2012
 Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:28:02 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (4.3ms)[0m  BEGIN
+  [1m[36mSQL (6.3ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:28:02 UTC +00:00], ["floor", 20], ["ip_address", "127.0.0.1"], ["last", 1], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:28:02 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (23.2ms)
+Completed 200 OK in 73ms (Views: 36.4ms | ActiveRecord: 23.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:28:02 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:28:02 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:28:02 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:28:02 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:28:16 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (4.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:28:16 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:28:16 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (29.2ms)
+Completed 200 OK in 83ms (Views: 48.9ms | ActiveRecord: 20.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:28:16 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:28:16 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:28:16 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:28:16 -0500 2012
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:29:06 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:29:06 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:29:06 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 37ms (Views: 20.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:29:06 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:29:06 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:29:06 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:29:06 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:30:25 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (2.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:30:25 UTC +00:00], ["floor", 3], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:30:25 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (80.6ms)
+Completed 200 OK in 123ms (Views: 96.4ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:30:26 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:30:26 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:30:26 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:30:26 -0500 2012
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:30:45 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:30:45 UTC +00:00], ["floor", 10], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:30:45 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (25.3ms)
+Completed 200 OK in 53ms (Views: 37.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:30:45 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:30:45 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:30:45 -0500 2012
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:30:45 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:31:10 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:31:10 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:31:10 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 62ms (Views: 38.1ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:31:10 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:31:10 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:31:10 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:31:10 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:32:01 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (1.3ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:32:01 UTC +00:00], ["floor", 3], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:32:01 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (58.8ms)
+Completed 200 OK in 235ms (Views: 85.0ms | ActiveRecord: 13.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:01 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:01 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:01 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:32:01 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:32:06 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:32:06 UTC +00:00], ["floor", 11], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:32:06 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (26.8ms)
+Completed 200 OK in 55ms (Views: 39.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:06 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:06 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:32:06 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:06 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:32:22 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (6.0ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:32:22 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:32:22 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (26.5ms)
+Completed 200 OK in 86ms (Views: 42.0ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:22 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:22 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:32:22 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:32:22 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:33:29 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:33:29 UTC +00:00], ["floor", 5], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:33:29 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (210.1ms)
+Completed 200 OK in 241ms (Views: 225.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:33:29 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:33:29 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:33:29 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:33:29 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:35:04 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:35:04 UTC +00:00], ["floor", 3], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:35:04 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    13:   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    14:     <div id="fb-root"></div>
+    15:     <script>(function(d, s, id) {
+    16:       var js, fjs = d.getElementsByTagName(s)[0];
+    17:       if (d.getElementById(id)) return;
+    18:       js = d.createElement(s); js.id = id;
+    19:       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556";
+  app/views/rides/show.html.haml:16
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:35:13 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:35:13 UTC +00:00], ["floor", 6], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:35:13 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    13:   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    14:     <div id="fb-root"></div>
+    15:     <script>(function(d, s, id) {
+    16:       var js, fjs = d.getElementsByTagName(s)[0];
+    17:       if (d.getElementById(id)) return;
+    18:       js = d.createElement(s); js.id = id;
+    19:       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556";
+  app/views/rides/show.html.haml:16
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:35:14 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (2.3ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:35:14 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:35:14 UTC +00:00]]
+  [1m[35m (3.9ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    13:   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    14:     <div id="fb-root"></div>
+    15:     <script>(function(d, s, id) {
+    16:       var js, fjs = d.getElementsByTagName(s)[0];
+    17:       if (d.getElementById(id)) return;
+    18:       js = d.createElement(s); js.id = id;
+    19:       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556";
+  app/views/rides/show.html.haml:16
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:35:18 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:35:18 UTC +00:00], ["floor", 15], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:35:18 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    13:   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    14:     <div id="fb-root"></div>
+    15:     <script>(function(d, s, id) {
+    16:       var js, fjs = d.getElementsByTagName(s)[0];
+    17:       if (d.getElementById(id)) return;
+    18:       js = d.createElement(s); js.id = id;
+    19:       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556";
+  app/views/rides/show.html.haml:16
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:35:28 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:35:29 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:35:29 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (82.6ms)
+Completed 500 Internal Server Error in 324ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    13:   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    14:     <div id="fb-root"></div>
+    15:     <script>(function(d, s, id) {
+    16:       var js, fjs = d.getElementsByTagName(s)[0];
+    17:       if (d.getElementById(id)) return;
+    18:       js = d.createElement(s); js.id = id;
+    19:       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556";
+  app/views/rides/show.html.haml:16
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:36:02 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (3.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:36:02 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:36:02 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (26.0ms)
+Completed 200 OK in 62ms (Views: 41.7ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:36:02 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:02 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:02 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:02 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:36:11 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:36:11 UTC +00:00], ["floor", 18], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:36:11 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (38.1ms)
+Completed 200 OK in 74ms (Views: 52.6ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:11 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:11 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:36:11 -0500 2012
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:11 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:36:20 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:36:20 UTC +00:00], ["floor", 9], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:36:20 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (223.5ms)
+Completed 200 OK in 281ms (Views: 264.6ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:20 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:20 -0500 2012
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:36:20 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:20 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:36:24 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:36:24 UTC +00:00], ["floor", 9], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:36:24 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (24.5ms)
+Completed 200 OK in 53ms (Views: 37.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:24 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:24 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:36:24 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:36:24 -0500 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:01 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:01 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:01 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 44ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    41:         %br
+    42:         %hr
+    43:         %h3 <div class="fb-like" data-href="http://elevatorgame.heroku.com" data-send="false" data-layout="button_count" data-width="0" data-show-faces="false"></div>
+    44:           %span{:style="margin-left: -10px"}The Elevator Game
+    45:         %h4 Click your way to the top!
+    46:         %a{:href => "/leaders", :style => "color: blue"} Leaderboard
+    47:         %br
+  app/views/rides/show.html.haml:44
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:04 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (9.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:04 UTC +00:00], ["floor", 16], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:04 UTC +00:00]]
+  [1m[35m (2.6ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    41:         %br
+    42:         %hr
+    43:         %h3 <div class="fb-like" data-href="http://elevatorgame.heroku.com" data-send="false" data-layout="button_count" data-width="0" data-show-faces="false"></div>
+    44:           %span{:style="margin-left: -10px"} The Elevator Game
+    45:         %h4 Click your way to the top!
+    46:         %a{:href => "/leaders", :style => "color: blue"} Leaderboard
+    47:         %br
+  app/views/rides/show.html.haml:44
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:09 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:09 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:09 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h3 and nested within it.):
+    41:         %br
+    42:         %hr
+    43:         %h3 <div class="fb-like" data-href="http://elevatorgame.heroku.com" data-send="false" data-layout="button_count" data-width="0" data-show-faces="false"></div>
+    44:           %span{:style="margin-left: -10px"} The Elevator Game
+    45:         %h4 Click your way to the top!
+    46:         %a{:href => "/leaders", :style => "color: blue"} Leaderboard
+    47:         %br
+  app/views/rides/show.html.haml:44
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:34 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (2.8ms)[0m  BEGIN
+  [1m[36mSQL (3.7ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:34 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:34 UTC +00:00]]
+  [1m[35m (2.3ms)[0m  COMMIT
+ERROR: compiling _app_views_rides_show_html_haml___1247172675_2179796660 RAISED compile error
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tSTRING_BEG, expecting ')'
+...t.attributes({}, nil, :style="margin-left: -10px")}>The Elev...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected ')', expecting '}'
+..., :style="margin-left: -10px")}>The Elevator Game</span>\n  ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: unknown regexp option - h
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tINTEGER, expecting '}'
+...ator Game</span>\n        </h3>\n        <h4>Click your way ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... </h3>\n        <h4>Click your way to the top!</h4>\n       ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: unknown regexp options - ladr
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tSTRING_BEG, expecting '}'
+...4>\n        <a href='/leaders' style='color: blue'>Leaderboa...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tIDENTIFIER, expecting '}'
+...a href='/leaders' style='color: blue'>Leaderboard</a>\n     ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tIDENTIFIER, expecting '}'
+...   <br>\n        <a href='http://www.joshrweinstein.com'>Jos...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: unknown regexp options - www
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ext("    <table style='padding: 20px; text-align: center; wi...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected ':', expecting '}'
+...le='padding: 20px; text-align: center; width: 700px; margin:...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected ':', expecting '}'
+...px; text-align: center; width: 700px; margin: 0px auto'>\n",...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected ':', expecting '}'
+... center; width: 700px; margin: 0px auto'>\n", 1, false);
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: unterminated string meets end of file
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected $end, expecting '}'
+Function body:           def _app_views_rides_show_html_haml___1247172675_2179796660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rides/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:escape_attrs=>true, :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:html5, :ugly=>false, :preserve=>["textarea", "pre", "code"], :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html>\n<html>\n  <head>\n    <title>You're in an elevator!</title>\n    <script>\n      //<![CDATA[\n        $('.pickme').live('click', function(){ \n            $(this).css('background-color', '#ff0000');\n            $('form', this).submit();\n            \n            return false;\n        });\n      //]]>\n    </script>\n  </head>\n  <body style='background: silver; text-align: center; width: 100%; margin: 50px auto'>\n    <div id='fb-root'></div>\n    <script>\n      //<![CDATA[\n        (function(d, s, id) {\n              var js, fjs = d.getElementsByTagName(s)[0];\n              if (d.getElementById(id)) return;\n              js = d.createElement(s); js.id = id;\n              js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556\";\n              fjs.parentNode.insertBefore(js, fjs);\n            }(document, 'script', 'facebook-jssdk'));\n      //]]>\n    </script>\n    <div id='left' style='width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px double black; height: 500px'>\n      <h2>\n        Click on floor...\n      </h2>\n      <h1 style='color: red'>\n        #{_hamlout.adjust_tabs(4); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.format_script_false_false_false_true_false_true_false(( @floor
+));}\n      </h1>\n      <div id='div' style='margin-top: 20px'>\n        <hr>\n        <h3>#{_hamlout.adjust_tabs(1); 
+
+_hamlout.format_script_false_true_false_false_false_true_false(("<a href=\"https://twitter.com/share\" data-url=\"http://elevatorgame.heroku.com\" data-text=\"My Elevator Game score is #{Haml::Helpers.html_escape((@ridecount))} Rides and #{Haml::Helpers.html_escape((@floorcount))} Floors\" class=\"twitter-share-button\" data-related=\"joshrweinstein\" data-hashtags=\"elevatorgame\" data-count=\"none\">Tweet</a> My Stats"
+));}</h3>\n        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\n        Rides:\n        #{
+
+
+_hamlout.format_script_false_false_false_true_false_true_false(( @ridecount
+));}\n        <br>\n        <br>\n        Floors Travelled:\n        #{
+
+
+
+_hamlout.format_script_false_false_false_true_false_true_false(( @floorcount
+));}\n        <br>\n        <br>\n        <hr>\n        <h3>\n          <div class='fb-like' data-href='http://elevatorgame.heroku.com' data-layout='button_count' data-send='false' data-show-faces='false' data-width='0'></div>\n          <span#{_hamlout.adjust_tabs(1); 
+
+
+
+
+_hamlout.attributes({}, nil, :style="margin-left: -10px")}>The Elevator Game</span>\n        </h3>\n        <h4>Click your way to the top!</h4>\n        <a href='/leaders' style='color: blue'>Leaderboard</a>\n        <br>\n        <br>\n        <hr>\n        This is a project for a\n        <br>\n        <a href='http://www.joshrweinstein.com'>JoshRWeinstein.com</a>\n        <br>\n        blog post on UX\n      </div>\n    </div>\n", -3, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+ if @config < 2
+ var = @i * @j - @j + 1
+ else
+ var = 1
+end
+_hamlout.push_text("    <table style='padding: 20px; text-align: center; width: 700px; margin: 0px auto'>\n", 1, false);
+ if @config < 1
+_hamlout.push_text("      <tr>\n", 1, false);
+ if @floor == 1
+_hamlout.push_text("        <td#{_hamlout.attributes({}, nil, :colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :class => "pickme")}>\n          ", 1, false);
+haml_temp =  form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f|
+_hamlout.push_text("          1\n", 0, false);end
+_hamlout.buffer << _hamlout.format_script_false_false_false_true_false_false_false(haml_temp);_hamlout.push_text("\n        </td>\n", -1, false); else
+_hamlout.push_text("        <td#{_hamlout.attributes({}, nil, :colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;")}>\n          1\n        </td>\n", 0, false);end
+_hamlout.push_text("      </tr>\n", -1, false);end
+ 1.upto(@i) do |rows|
+_hamlout.push_text("      <tr>\n", 1, false);
+ 1.upto(@j) do
+ if var == @floor
+_hamlout.push_text("        <td#{_hamlout.attributes({}, nil, :style=> "width: 50px; height: 100px; background: #999999; -moz-border-radius: 150px; border-radius: 15px; border: 1px black solid;", :class => "pickme")}>\n          ", 1, false);
+haml_temp =  form_for @ride, :url => { :action => "update", :ride_id => @ride.id } do |f|
+_hamlout.push_text("          #{_hamlout.format_script_false_false_false_true_false_true_false((var
+));}\n", 0, false);end
+_hamlout.buffer << _hamlout.format_script_false_false_false_true_false_false_false(haml_temp);_hamlout.push_text("\n        </td>\n", -1, false); else
+_hamlout.push_text("        <td#{_hamlout.attributes({}, nil, :style=> "width: 50px; height: 100px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;")}>\n          #{_hamlout.adjust_tabs(1); _hamlout.format_script_false_false_false_true_false_true_false(( var
+));}\n        </td>\n", -1, false);end
+ var += 1
+end
+ if @config <2
+ var -= 2*@j
+end
+_hamlout.push_text("      </tr>\n", -1, false);end
+ if @config > 1
+_hamlout.push_text("      <tr>\n", 1, false); if @floor == 1
+_hamlout.push_text("        <td#{_hamlout.attributes({}, nil, :colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;", :class => "pickme")}>\n          ", 1, false);haml_temp =  form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f|
+_hamlout.push_text("          1\n", 0, false);end
+_hamlout.buffer << _hamlout.format_script_false_false_false_true_false_false_false(haml_temp);_hamlout.push_text("\n        </td>\n", -1, false); else
+_hamlout.push_text("        <td#{_hamlout.attributes({}, nil, :colspan => "5", :style=> "width: 50px; height: 50px; background: #999999; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;")}>\n          1\n        </td>\n", 0, false);end
+_hamlout.push_text("      </tr>\n", -1, false);end
+_hamlout.push_text("    </table>\n  </body>\n</html>\n", -3, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64:in `compile'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:190:in `compile!'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:143:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:55:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/template.rb:142:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:416:in `_run__948685079__process_action__453433196__callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/notifications.rb:53:in `instrument'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/base.rb:121:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_controller/metal.rb:236:in `action'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/sass-3.1.12/lib/sass/../sass/plugin/rack.rb:54:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/query_cache.rb:62:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activerecord-3.1.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `send'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/logger.rb:13:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/activesupport-3.1.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/engine.rb:456:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/content_length.rb:16:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/josh/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/handler/webrick.rb:13:in `run'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/rack-1.3.6/lib/rack/server.rb:265:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands/server.rb:70:in `start'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:54
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49:in `tap'
+/Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/railties-3.1.1/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered rides/show.html.haml within layouts/application (43.0ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (compile error
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tSTRING_BEG, expecting ')'
+...t.attributes({}, nil, :style="margin-left: -10px")}>The Elev...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected ')', expecting '}'
+..., :style="margin-left: -10px")}>The Elevator Game</span>\n  ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: unknown regexp option - h
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tINTEGER, expecting '}'
+...ator Game</span>\n        </h3>\n        <h4>Click your way ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... </h3>\n        <h4>Click your way to the top!</h4>\n       ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: unknown regexp options - ladr
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tSTRING_BEG, expecting '}'
+...4>\n        <a href='/leaders' style='color: blue'>Leaderboa...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tIDENTIFIER, expecting '}'
+...a href='/leaders' style='color: blue'>Leaderboard</a>\n     ...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: syntax error, unexpected tIDENTIFIER, expecting '}'
+...   <br>\n        <a href='http://www.joshrweinstein.com'>Jos...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:45: unknown regexp options - www
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected tIDENTIFIER, expecting '}'
+...ext("    <table style='padding: 20px; text-align: center; wi...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected ':', expecting '}'
+...le='padding: 20px; text-align: center; width: 700px; margin:...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected ':', expecting '}'
+...px; text-align: center; width: 700px; margin: 0px auto'>\n",...
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected ':', expecting '}'
+... center; width: 700px; margin: 0px auto'>\n", 1, false);
+                              ^
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: unterminated string meets end of file
+/Users/josh/projects/elevatorux/app/views/rides/show.html.haml:64: syntax error, unexpected $end, expecting '}'):
+    42:         %hr
+    43:         %h3 
+    44:           .fb-like{"data-href" => "http://elevatorgame.heroku.com", "data-layout" => "button_count", "data-send" => "false", "data-show-faces" => "false", "data-width" => "0"}
+    45:           %span{:style="margin-left: -10px"} The Elevator Game
+    46:         %h4 Click your way to the top!
+    47:         %a{:href => "/leaders", :style => "color: blue"} Leaderboard
+    48:         %br
+  app/views/rides/show.html.haml:64:in `compile'
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:44 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (10.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:44 UTC +00:00], ["floor", 13], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:44 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (30.6ms)
+Completed 200 OK in 85ms (Views: 50.7ms | ActiveRecord: 21.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:37:44 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:44 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:44 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:44 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:49 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (3.1ms)[0m  BEGIN
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:49 UTC +00:00], ["floor", 13], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:49 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (25.6ms)
+Completed 200 OK in 67ms (Views: 38.2ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:37:49 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:49 -0500 2012
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:49 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:49 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:37:52 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:37:52 UTC +00:00], ["floor", 9], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:37:52 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (68.3ms)
+Completed 200 OK in 225ms (Views: 93.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:52 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:52 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:37:52 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:37:52 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:38:07 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:38:07 UTC +00:00], ["floor", 15], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:38:07 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (28.8ms)
+Completed 200 OK in 57ms (Views: 42.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:38:07 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:38:07 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:38:07 -0500 2012
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:38:07 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 21:38:18 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (0.9ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (27.1ms)
+Completed 200 OK in 51ms (Views: 40.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:38:18 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:38:18 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:38:18 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:38:18 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 21:39:41 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[35mUsersession Load (0.6ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25
+Rendered rides/leaders.html.haml within layouts/application (272.0ms)
+Completed 200 OK in 312ms (Views: 300.4ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:39:41 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:39:41 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:39:41 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:39:41 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 21:39:57 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (0.6ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (32.2ms)
+Completed 200 OK in 54ms (Views: 45.0ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:39:57 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:39:57 -0500 2012
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:39:57 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:39:57 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:40:05 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:40:05 UTC +00:00], ["floor", 12], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:40:05 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 33ms (Views: 17.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:05 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:05 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:05 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:40:05 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 21:40:11 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (0.6ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 41ms (Views: 23.8ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:11 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:11 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:11 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:40:11 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:40:28 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:40:28 UTC +00:00], ["floor", 1], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:40:28 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 35ms (Views: 19.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:40:29 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:29 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:29 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:29 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 21:40:55 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[36mUsersession Load (9.4ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25[0m
+Rendered rides/leaders.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 65ms (Views: 33.3ms | ActiveRecord: 24.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:55 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:55 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:40:55 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:40:55 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/leaders" for 127.0.0.1 at Sun Jan 29 21:41:29 -0500 2012
+  Processing by RidesController#leaders as HTML
+  [1m[35mUsersession Load (1.2ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE (rides >= 0) ORDER BY rides desc, floors desc LIMIT 25
+Rendered rides/leaders.html.haml within layouts/application (29.4ms)
+Completed 200 OK in 57ms (Views: 42.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:41:29 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:41:29 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:41:29 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:41:29 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jan 29 21:41:32 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Mon, 30 Jan 2012 02:41:32 UTC +00:00], ["floor", 4], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 50], ["timetoclick", nil], ["top", nil], ["updated_at", Mon, 30 Jan 2012 02:41:32 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 32ms (Views: 16.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jan 29 21:41:32 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jan 29 21:41:32 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jan 29 21:41:32 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jan 29 21:41:32 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)

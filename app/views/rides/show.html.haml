@@ -11,6 +11,15 @@
       });
       
   %body{:style => "background: silver; text-align: center; width: 100%; margin: 50px auto"}
+    #fb-root
+    :javascript
+      (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=195692220502556";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
     #left{:style=>"width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px double black; height: 500px"}
       %h2
         Click on floor...
@@ -18,7 +27,8 @@
         = @floor
       #div{:style => "margin-top: 20px"}
         %hr
-        %h3 My Stats
+        %h3 <a href="https://twitter.com/share" data-url="http://elevatorgame.heroku.com" data-text="My Elevator Game score is #{@ridecount} Rides and #{@floorcount} Floors" class="twitter-share-button" data-related="joshrweinstein" data-hashtags="elevatorgame" data-count="none">Tweet</a> My Stats
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         Rides:
 
         = @ridecount
@@ -30,7 +40,9 @@
         %br
         %br
         %hr
-        %h3 The Elevator Game
+        %h3 
+          .fb-like{"data-href" => "http://elevatorgame.heroku.com", "data-layout" => "button_count", "data-send" => "false", "data-show-faces" => "false", "data-width" => "0"}
+          %span{:style=>"margin-left: -40px"} The Elevator Game
         %h4 Click your way to the top!
         %a{:href => "/leaders", :style => "color: blue"} Leaderboard
         %br
