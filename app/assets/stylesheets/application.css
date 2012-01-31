@@ -11,7 +11,7 @@
 	background: black;
 	color: white;
 	border: 2px white solid;
-	width: 240px; margin-top: 40px; margin-left: 50px; float: left; height: 525px
+	width: 240px; margin-top: 40px; margin-left: 50px; float: left; height: 525px;
 }
 #right
 {
@@ -22,7 +22,7 @@ width: 700px; min-height: 800px; margin-top: 0px; margin-left: 50px; float: left
 
 html, td
 {
-	text-align: center; width: 100%; margin: 0px auto
+	text-align: center; width: 100%; margin: 0px auto;
 	height: 100%;
 	background-color: silver;
     background-image: -moz-linear-gradient(100% 100% 90deg, Gray, Black);
