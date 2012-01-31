@@ -2,13 +2,11 @@
 %html
   %head
     %title You're in an elevator! Click your way to the top!
-  %body{:style => "background: #999999; text-align: center; width: 100%; margin: 50px auto"}
-    #left{:style=>"width: 300px; margin-top: 0px; margin-left: 50px; float: left; background: white; border: 2px double black; height: 500px"}
+  %body
+    #left
       %h2
         Leaders
-      %a{:href => "/", :style => "color: blue"}Back to the elevator
-      %h1{:style => "color: red"} 
-        = @floor
+      %a{:href => "/", :style => "color: gold"}Back to the elevator
       %hr
       #div{:style => "margin-top: 30px"}
         %h3
@@ -21,9 +19,7 @@
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         Rides:
         = @ridecount
-        %br
-        %br
-        Floors Travelled:
+        Floors:
         = @floorcount
         %br
         %br
@@ -42,36 +38,39 @@
           = form_for "", :url => { :action => "nameentry" } do |l|
             %input{:name => :name, :maxlength => "20"}
             = l.submit
-        
+        %br
         %hr
-        
+        %br
         This is a project for a
         %br
-        %a{:href => "http://www.joshrweinstein.com", :style => "color: blue"}JoshRWeinstein.com
+        %a{:href => "http://www.joshrweinstein.com", :style => "color: white"}JoshRWeinstein.com
         %br
         blog post on UX
-    
-    %table{:style=> "padding: 5px; text-align: center; width: 50%; margin: 0px auto"}
-      %tr
-        %td
-          %h2 Rides
-        %td
-          %h2 Floors
-        %td
-          %h2 Time in seconds
-        %td
-          %h2 Name
-      - @leaders.each do |leader|
+    #div{:style => "margin-left: 50px; float: left"}
+      %table
         %tr
           %td
-            = leader.rides
+            %h5 Rides
           %td
-            = leader.floors
+            %h5 Floors
           %td
-            = leader.time
+            %h5
+              Time
+              %br
+              (in seconds)
           %td
-            -if leader.name
-              = leader.name
-            -else
-              Anonymous Rider
+            %h5 Name
+        - @leaders.each do |leader|
+          %tr
+            %td
+              = leader.rides
+            %td
+              = leader.floors
+            %td{:style => "font-size: 36px"}
+              = leader.time
+            %td{:style => "font-size: 36px"}
+              -if leader.name
+                = leader.name
+              -else
+                Anonymous Rider
         

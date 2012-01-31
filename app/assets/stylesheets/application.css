@@ -5,3 +5,33 @@
  *= require_self
  *= require_tree . 
 */
+
+#left
+{
+	background: black;
+	color: white;
+	border: 2px white solid;
+	width: 240px; margin-top: 40px; margin-left: 50px; float: left; height: 525px
+}
+#right
+{
+
+	background-color: #bc9600;
+width: 700px; min-height: 800px; margin-top: 0px; margin-left: 50px; float: left; border: 2px double black; border-top: 0px; border-bottom: 0px;
+}
+
+html, td
+{
+	text-align: center; width: 100%; margin: 0px auto
+	height: 100%;
+	background-color: silver;
+    background-image: -moz-linear-gradient(100% 100% 90deg, Gray, Black);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(Gray), to(Black));
+}
+	
+td
+{
+	width: 50px; height: 50px; -moz-border-radius: 15px; border-radius: 15px; border: 1px black solid;
+	color: white;
+	font-size: 46px;
+}
