@@ -2,7 +2,10 @@
 %html
   %head
     %title You're in an elevator! Click your way to the top!
-    <link rel="image_src" href="/elevatorgame.png" />
+    <meta property="og:image" content="/elevatorgame.png"/>
+    <meta property="og:title" content="The Elevator Game - Clicking challenege"/>
+    <meta property="og:description" content="Think you can be the clicking champ? Then click your way to the top!"/>
+    
     :javascript
       $('.pickme').live('click', function(){ 
           $(this).css('background-image', 'none');
@@ -21,7 +24,7 @@
       });
       
       $('.close').live('click', function(){ 
-          alert("In most elevators, this button doesn't do anything... \n\n ...all it got you in this one was this annoying popup. \n");
+          alert("In most elevators, this button doesn't actually do anything... \n\n ...all it got you in this one was this annoying popup. \n");
           return false;
       });
       
