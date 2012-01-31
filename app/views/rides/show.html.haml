@@ -126,7 +126,11 @@
             %td
               %a{:href=>"http://www.youtube.com/watch?v=7W_n292ozNc", :style => "color:white; text-decoration: none", :target => "_blank"}❻❻❻  
       - else
+        - if @ridecount < 5
+          Take 5 rides for Stats
         %br
+        - if @ridecount < 10
+          Take 10 rides for Leaderboard
         %br
         %br
         %br
