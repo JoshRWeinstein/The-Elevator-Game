@@ -34,7 +34,7 @@
         %span{:style=>"margin-right: 65px; margin-top: 0px; float:right;"} The Elevator Game
       %h4
         Click your way to the top
-      - if @ridecount > 5
+      - if @ridecount > 9
         %a{:href => "/leaders", :style => "color: gold"} The Leaderboard
       - else
         Leaderboard access: 10 rides
@@ -48,7 +48,7 @@
         = @floor
       #div{:style => "margin-top: 20px"}
         %hr
-        - if @ridecount > 5
+        - if @ridecount > 4
         
           %h3
             <a href="https://twitter.com/share" data-url="http://elevatorgame.heroku.com" data-text="My Elevator Game score is #{@ridecount} Rides and #{@floorcount} Floors" class="twitter-share-button" data-related="joshrweinstein" data-hashtags="elevatorgame" data-count="none">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -114,7 +114,7 @@
               %td{:colspan => "5"}
                 1
         
-      - if @ridecount > 18
+      - if @ridecount > 20
         %table{:style=>"margin: 150px auto"}
           %tr
             %td{:class => "open"}
