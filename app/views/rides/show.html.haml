@@ -30,8 +30,8 @@
     %h1{:style => "display: none; color: white", :class => "whew"} Whew, thanks for holding the door!
     #left
       %h3 
-        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Felevatorgame.heroku.com&amp;send=false&amp;layout=button_count&amp;width=40&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=195692220502556" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:21px;" allowTransparency="true"></iframe>
-        %span{:style=>"margin-right: 65px; margin-top: 0px; float:right;"} The Elevator Game
+        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftheelevatorgame.com&amp;send=false&amp;layout=button_count&amp;width=40&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=195692220502556" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:21px;" allowTransparency="true"></iframe>
+        %span{:style=>"margin-right: 65px; margin-top: 0px; float:right;"} TheElevatorGame.com
       %h4
         Click your way to the top
       - if @ridecount > 9
@@ -51,7 +51,7 @@
         - if @ridecount > 4
         
           %h3
-            <a href="https://twitter.com/share" data-url="http://elevatorgame.heroku.com" data-text="My Elevator Game score is #{@ridecount} Rides and #{@floorcount} Floors" class="twitter-share-button" data-related="joshrweinstein" data-hashtags="elevatorgame" data-count="none">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <a href="https://twitter.com/share" data-url="http://theelevatorgame.com" data-text="My Elevator Game score is #{@ridecount} Rides and #{@floorcount} Floors" class="twitter-share-button" data-related="joshrweinstein" data-hashtags="elevatorgame" data-count="none">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             %br
             My Stats
           Rides:
