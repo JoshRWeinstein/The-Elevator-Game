@@ -62985,3 +62985,31 @@ Served asset /application.css - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:43 -0500 2012
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/results" for 127.0.0.1 at Wed Feb 01 20:14:43 -0500 2012
+  Processing by RidesController#results as HTML
+  [1m[35mRide Load (2.4ms)[0m  SELECT "rides".* FROM "rides" WHERE (config = 0 and floor = 1)
+  [1m[36mRide Load (0.9ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (top = true and config = 0 )[0m
+  [1m[35mRide Load (0.9ms)[0m  SELECT "rides".* FROM "rides" WHERE (top IS NOT NULL and config = 0 and floor = 1)
+  [1m[36mRide Load (1.0ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1)[0m
+  [1m[35mRide Load (0.5ms)[0m  SELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1 and top = true)
+  [1m[36mRide Load (0.7ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (top IS NOT NULL and config = 2 and floor = 1)[0m
+Rendered rides/results.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 48ms (Views: 25.8ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 20:14:43 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 20:14:43 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 20:14:43 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 20:14:43 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
