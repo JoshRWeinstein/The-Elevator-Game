@@ -62825,3 +62825,58 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 01 19:58:50 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Thu, 02 Feb 2012 00:58:50 UTC +00:00], ["floor", 15], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 56], ["timetoclick", nil], ["top", nil], ["updated_at", Thu, 02 Feb 2012 00:58:50 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (119.5ms)
+Completed 200 OK in 145ms (Views: 132.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 19:58:51 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 19:58:51 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 19:58:51 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 19:58:51 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/results" for 127.0.0.1 at Wed Feb 01 19:58:55 -0500 2012
+  Processing by RidesController#results as HTML
+  [1m[36mUsersession Load (0.6ms)[0m  [1mSELECT "usersessions".* FROM "usersessions" [0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "usersessions" 
+  [1m[36mRide Load (11.1ms)[0m  [1mSELECT "rides".* FROM "rides" [0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "rides" 
+  [1m[36mRide Load (2.2ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (config = 0 and floor = 1)[0m
+  [1m[35mRide Load (1.0ms)[0m  SELECT "rides".* FROM "rides" WHERE (top = true and config = 0 )
+  [1m[36mRide Load (1.0ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1)[0m
+  [1m[35mRide Load (0.5ms)[0m  SELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1 and top = true)
+Rendered rides/results.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 105ms (Views: 26.2ms | ActiveRecord: 21.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 19:58:55 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 19:58:55 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 19:58:55 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 19:58:55 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
