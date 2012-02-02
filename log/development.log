@@ -62880,3 +62880,108 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 19:58:55 -0500 2012
 Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 01 20:04:30 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Thu, 02 Feb 2012 01:04:30 UTC +00:00], ["floor", 5], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 56], ["timetoclick", nil], ["top", nil], ["updated_at", Thu, 02 Feb 2012 01:04:30 UTC +00:00]]
+  [1m[36m (3.6ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 38ms (Views: 19.3ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 20:04:30 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:31 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:31 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:31 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/reults" for 127.0.0.1 at Wed Feb 01 20:04:32 -0500 2012
+
+ActionController::RoutingError (No route matches [GET] "/reults"):
+  
+
+Rendered /Users/josh/.rvm/gems/ree-1.8.7-2010.02@youaretv/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/results" for 127.0.0.1 at Wed Feb 01 20:04:35 -0500 2012
+  Processing by RidesController#results as HTML
+  [1m[35mRide Load (1.0ms)[0m  SELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1)
+  [1m[36mRide Load (0.7ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1 and top = true)[0m
+Rendered rides/results.html.haml within layouts/application (163.2ms)
+Completed 200 OK in 188ms (Views: 181.0ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 20:04:35 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:35 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:35 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:35 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/results" for 127.0.0.1 at Wed Feb 01 20:04:36 -0500 2012
+  Processing by RidesController#results as HTML
+  [1m[35mRide Load (1.0ms)[0m  SELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1)
+  [1m[36mRide Load (0.6ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1 and top = true)[0m
+Rendered rides/results.html.haml within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 13.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:36 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:36 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 20:04:36 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:36 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/results" for 127.0.0.1 at Wed Feb 01 20:04:43 -0500 2012
+  Processing by RidesController#results as HTML
+  [1m[35mRide Load (1.0ms)[0m  SELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1)
+  [1m[36mRide Load (1.3ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE (config = 2 and floor = 1 and top = true)[0m
+Rendered rides/results.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 13.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:43 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:43 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 20:04:43 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 20:04:43 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
