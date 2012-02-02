@@ -110,4 +110,18 @@ class RidesController < ApplicationController
   @name = session[:name]
   end
   
+  def results
+    @Usersession = Usersession.all
+    @UsersessionCount = Usersession.count
+    @Ride = Ride.all
+    @RidesCount = Ride.count
+    @lobby0 = Ride.find(:all, :conditions => "floor = 1 and config = 0").count
+    @lobby0top = Ride.find(:all, :conditions => "floor = 1 and config = 0 and top = true").count
+    @lobby0notnull = Ride.find(:all, :conditions => "floor = 1 and config = 0 and top IS NOT NULL").count
+    @lobby2 = Ride.find(:all, :conditions => "floor = 1 and config = 2").count
+    @lobby2top = Ride.find(:all, :conditions => "floor = 1 and config = 2 and top = true").count
+    @lobby2notnull = Ride.find(:all, :conditions => "floor = 1 and config = 2 and top IS NOT NULL").count
+    
+  end
+  
 end
