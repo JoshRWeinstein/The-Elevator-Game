@@ -62760,3 +62760,68 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 19:50:01 -0500 2012
 Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 01 19:56:51 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["columns", 5], ["config", 1], ["created_at", Thu, 02 Feb 2012 00:56:51 UTC +00:00], ["floor", 14], ["ip_address", "127.0.0.1"], ["last", 0], ["rows", 4], ["session_id", 56], ["timetoclick", nil], ["top", nil], ["updated_at", Thu, 02 Feb 2012 00:56:51 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Rendered rides/show.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 28ms (Views: 14.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 19:56:51 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 19:56:51 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 19:56:51 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 19:56:51 -0500 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/rides/update?ride_id=1255" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
+  Processing by RidesController#update as HTML
+  Parameters: {"authenticity_token"=>"B5ByCjBZvGlSm3y63xiwaea+ouAsCUzU2JJJ8S9fQnY=", "utf8"=>"\342\234\223", "ride_id"=>"1255", "id"=>"update"}
+  [1m[36mRide Load (0.2ms)[0m  [1mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT 1[0m  [["id", "1255"]]
+  [1m[35mUsersession Load (0.3ms)[0m  SELECT "usersessions".* FROM "usersessions" WHERE "usersessions"."id" = $1 LIMIT 1  [["id", 56]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE "usersessions" SET "floors" = 120, "time" = 44.843437, "rides" = 13, "updated_at" = '2012-02-02 00:57:01.103086' WHERE "usersessions"."id" = 56
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE "rides" SET "updated_at" = '2012-02-02 00:57:01.105985', "timetoclick" = 9.165395, "top" = 'f' WHERE "rides"."id" = 1255[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
+  Processing by RidesController#show as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "rides" ("columns", "config", "created_at", "floor", "ip_address", "last", "rows", "session_id", "timetoclick", "top", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["columns", 5], ["config", 1], ["created_at", Thu, 02 Feb 2012 00:57:01 UTC +00:00], ["floor", 10], ["ip_address", "127.0.0.1"], ["last", 14], ["rows", 4], ["session_id", 56], ["timetoclick", nil], ["top", nil], ["updated_at", Thu, 02 Feb 2012 00:57:01 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Rendered rides/show.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 27ms (Views: 14.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Feb 01 19:57:01 -0500 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
