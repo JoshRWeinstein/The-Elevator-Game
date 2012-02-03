@@ -126,12 +126,12 @@ class RidesController < ApplicationController
     @US0 = Usersession.unskilled.config0.collect {|u| u.rides}.flatten
     @USlobby0 = @US0.select{|u| u[:floor] == 1}.count
     @USlobby0top = @US0.select{|u| u[:top] == true}.count
-    @USlobby0notnull = @US0.select{|u| u[:top] and u[:floor] == 1}.count
+    @USlobby0notnull = @US0.select{|u| !u[:top].nil? and u[:floor] == 1}.count
     
     @US2 = Array.new(Usersession.unskilled.config2.collect {|u| u.rides}.flatten)
     @USlobby2 = @US2.select{|u| u[:floor] == 1}.count
     @USlobby2top = @US2.select{|u| u[:top] == true}.count
-    @USlobby2notnull = @US2.select{|u| u[:top] and u[:floor] == 1}.count
+    @USlobby2notnull = @US2.select{|u| !u[:top].nil? and u[:floor] == 1}.count
     
   end
 end

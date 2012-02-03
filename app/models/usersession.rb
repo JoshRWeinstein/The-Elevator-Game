@@ -4,7 +4,7 @@ class Usersession < ActiveRecord::Base
   
   
   scope :unskilled,
-    where('ridecount <= 5 and ridecount IS NOT NULL')
+    where('ridecount <= 10 and ridecount IS NOT NULL')
   
   scope :config0,
     where('config = 0')
