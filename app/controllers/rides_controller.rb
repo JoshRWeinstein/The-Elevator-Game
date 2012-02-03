@@ -13,7 +13,7 @@ class RidesController < ApplicationController
     session[:ridecount] += 1
     session[:floorcount] += @jw[:floor]
     @sesh = Usersession.find(session[:seshid])
-    @sesh[:rides] = session[:ridecount]
+    @sesh[:ridecount] = session[:ridecount]
     @sesh[:time] = session[:timecount]
     @sesh[:floors] = session[:floorcount]
     @sesh[:config] = session[:config]
@@ -104,7 +104,7 @@ class RidesController < ApplicationController
   end
   def leaders
   
-  @leaders = Usersession.find(:all, :conditions => "rides >= 0", :order => "rides desc, floors desc", :limit => 25)
+  @leaders = Usersession.find(:all, :conditions => "ridecount >= 0", :order => "ridecount desc, floors desc", :limit => 25)
   @ridecount = session[:ridecount] || 0
   @floorcount = session[:floorcount] || 0
   @name = session[:name]
@@ -121,5 +121,17 @@ class RidesController < ApplicationController
     @lobby2 = Ride.find(:all, :conditions => "config = 2 and floor = 1").count
     @lobby2top = Ride.find(:all, :conditions => "config = 2 and floor = 1 and top = true").count
     @lobby2notnull = Ride.find(:all, :conditions => "top IS NOT NULL and config = 2 and floor = 1").count
+    
+    
+    @US0 = Usersession.unskilled.config0.collect {|u| u.rides}.flatten
+    @USlobby0 = @US0.select{|u| u[:floor] == 1}.count
+    @USlobby0top = @US0.select{|u| u[:top] == true}.count
+    @USlobby0notnull = @US0.select{|u| u[:top] and u[:floor] == 1}.count
+    
+    @US2 = Array.new(Usersession.unskilled.config2.collect {|u| u.rides}.flatten)
+    @USlobby2 = @US2.select{|u| u[:floor] == 1}.count
+    @USlobby2top = @US2.select{|u| u[:top] == true}.count
+    @USlobby2notnull = @US2.select{|u| u[:top] and u[:floor] == 1}.count
+    
   end
 end
