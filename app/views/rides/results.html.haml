@@ -2,103 +2,406 @@
 %html
   %head
     %title You're in an elevator! Click your way to the top!
-    = stylesheet_link_tag 'application.css', :media => 'screen, projection'
-      
   %body{:style => "text-align: center; width: 100%; margin: 0px auto"}
-    #left
-      %h3 
-        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftheelevatorgame.com&amp;send=false&amp;layout=button_count&amp;width=40&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=195692220502556" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:21px;" allowTransparency="true"></iframe>
-        %span{:style=>"margin-right: 25px; margin-top: 0px; float:right;"} TheElevatorGame.com
-      %h4
-        Click your way to the top
-      %a{:href => "/leaders", :style => "color: gold"} The Leaderboard
-      %br
-      %br
-
-      %hr
-      %h2{:style => "color: red"} 
-        Click on floor...
-      %h1{:style => "color: red"} 
-        = @floor
-      #div{:style => "margin-top: 20px"}
-        %hr
+    #results
+      %table{:style=> "padding: 20px; text-align: center; width: 100%; margin: 20px auto; font-size: 14px"}
+        %tr
+          %td Config
+          %td 0: Normal elevator, lobby button up top
       
-        %br
-        This is a project for a
-        %br
-        %a{:href => "http://www.joshrweinstein.com", :style => "color: white"}JoshRWeinstein.com
-        %br
-        blog post on UX
-        
-    #right
-      %table{:style=> "padding: 20px; text-align: center; width: 700px; margin: 20px auto"}
+          %td 1: Normal elevator
+      
+          %td 2: Upside-down buttons, big bottom lobby  
         %tr
-          %td{:style => "font-size: 25px"} Config 0: Normal elevator, lobby button up top
-        
-          %td{:style => "font-size: 25px"} Config 1: Normal elevator
-        
-          %td{:style => "font-size: 25px"} Config 2: Upside-down buttons, bottom lobby button  
+          %td{:colspan => "4"} Experiment 1: The Lobby  - .pickme chooses bottom-most
         %tr
-          %td{:colspan => "5"} Experiment 1: Large Lobby
-        %tr{:style => "font-size: 25px"}
-          %td{:style => "font-size: 25px"}
-            Lobby prompts: 
-            %br
-            =@lobby0
-            %br
-            %br
-            Lobby !nulls 
-            %br
-            =@lobby0notnull
-            %br
-            %br
-            Lobby Top
-            %br
-            =@lobby0top                  
           %td
-          %td{:style => "font-size: 25px"}
-            Lobby2 prompts 
+            =@Acount
+            All
             %br
-            =@lobby2
+            prompts: 
+            =@Alobby
             %br
+            drops: 
+            =@Alobbydrops
             %br
-            Lobby2 !nulls: 
+            !nulls: 
+            =@Alobbynotnull
             %br
-            =@lobby2notnull
+            !nAvgTTC:
+            =@AlobbynotnullavgTTC
             %br
+            Bigs:
+            =@Alobbytop
+          %td
+            prompts: 
+            =@Alobby0
             %br
-            Lobby2 Top
+            drops:
+            =@Alobby0drops
             %br
-            =@lobby2top          
-        %tr{:style => "font-size: 25px"}
-          %td{:colspan=> "3"} Unskilled
-        %tr{:style => "font-size: 25px"}
-          %td{:style => "font-size: 25px"}
-            USLobby prompts: 
+            !nulls: 
+            =@Alobby0notnull
             %br
+            !nAvgTTC:
+            =@Alobby0notnullavgTTC
+            %br
+            Big:
+            =@Alobby0top
+          %td
+            prompts: 
+            =@Alobby1
+            %br
+            drops:
+            =@Alobby1drops
+            %br
+            !nulls: 
+            =@Alobby1notnull
+            %br
+            !nAvgTTC:
+            =@Alobby1notnullavgTTC
+            %br
+            Big:
+            =@Alobby1top
+          %td
+            prompts 
+            =@Alobby2
+            %br
+            drops:
+            =@Alobby2drops
+            %br
+            !nulls:
+            =@Alobby2notnull
+            %br
+            !nAvgTTC:
+            =@Alobby2notnullavgTTC
+            %br
+            Big:
+            =@Alobby2top
+        %tr
+          %td
+            =@UScount
+            Unskilled (< 21 ridecount)
+            %br
+            prompts: 
+            =@USlobby
+            %br
+            drops: 
+            =@USlobbydrops
+            %br
+            !nulls: 
+            =@USlobbynotnull
+            %br
+            !nAvgTTC:
+            =@USlobbynotnullavgTTC
+            %br
+            Big:
+            =@USlobbytop
+          %td
+            prompts:
             =@USlobby0
             %br
+            drops:
+            =@USlobby0drops
             %br
-            Lobby !nulls 
-            %br
+            !nulls: 
             =@USlobby0notnull
+            
             %br
+            !nAvgTTC:
+            =@USlobby0notnullavgTTC
+            
             %br
-            Lobby Top
-            %br
-            =@USlobby0top                  
+            Big:
+            =@USlobby0top
           %td
-          %td{:style => "font-size: 25px"}
-            Lobby2 prompts 
+            prompts:
+            =@USlobby1
             %br
+            drops:
+            =@USlobby1drops
+            %br
+            !nulls: 
+            =@USlobby1notnull
+            %br
+            !nAvgTTC:
+            =@USlobby1notnullavgTTC
+            %br
+            Big:
+            =@USlobby1top
+          %td
+            prompts:
             =@USlobby2
             %br
+            drops:
+            =@USlobby2drops
             %br
-            Lobby2 !nulls: 
-            %br
+            !nulls:
             =@USlobby2notnull
             %br
+            !nAvgTTC:
+            =@USlobby2notnullavgTTC
             %br
-            Lobby2 Top
+            Big:
+            =@USlobby2top
+        %tr
+          %td
+            =@Scount
+            Skilled (21 <= ridecount < 50)
             %br
-            =@USlobby2top          
+            prompts: 
+            =@Slobby
+            %br
+            drops: 
+            =@Slobbydrops
+            %br
+            !nulls: 
+            =@Slobbynotnull
+            %br
+            !nAvgTTC:
+            =@SlobbynotnullavgTTC
+            %br
+            Big:
+            =@Slobbytop
+          %td
+            prompts:
+            =@Slobby0
+            %br
+            drops:
+            =@Slobby0drops
+            %br
+            !nulls: 
+            =@Slobby0notnull
+            %br
+            !nAvgTTC:
+            =@Slobby0notnullavgTTC
+            
+            %br
+            Big:
+            =@Slobby0top
+          %td
+            prompts:
+            =@Slobby1
+            %br
+            drops:
+            =@Slobby1drops
+            %br
+            !nulls: 
+            =@Slobby1notnull
+            %br
+            !nAvgTTC:
+            =@Slobby1notnullavgTTC
+            %br
+            Big:
+            =@Slobby1top
+          %td
+            prompts:
+            =@Slobby2
+            %br
+            drops:
+            =@Slobby2drops
+            %br
+            !nulls:
+            =@Slobby2notnull
+            %br
+            !nAvgTTC:
+            =@Slobby2notnullavgTTC
+            %br
+            Big:
+            =@Slobby2top
+        %tr
+          %td
+            =@Pcount
+            Power (50 <= ridecount <100)
+            %br
+            prompts: 
+            =@Plobby
+            %br
+            drops: 
+            =@Plobbydrops
+            %br
+            !nulls: 
+            =@Plobbynotnull
+            %br
+            !nAvgTTC:
+            =@PlobbynotnullavgTTC
+            %br
+            Big:
+            =@Plobbytop
+          %td
+            prompts:
+            =@Plobby0
+            %br
+            drops:
+            =@Plobby0drops
+            %br
+            !nulls: 
+            =@Plobby0notnull
+            %br
+            !nAvgTTC:
+            =@Plobby0notnullavgTTC
+            %br
+            Big:
+            =@Plobby0top
+          %td
+            prompts:
+            =@Plobby1
+            %br
+            drops:
+            =@Plobby1drops
+            %br
+            !nulls: 
+            =@Plobby1notnull
+            %br
+            !nAvgTTC:
+            =@Plobby1notnullavgTTC
+            %br
+            Big:
+            =@Plobby1top
+          %td
+            prompts:
+            =@Plobby2
+            %br
+            drops:
+            =@Plobby2drops
+            %br
+            !nulls:
+            =@Plobby2notnull
+            %br
+            !nAvgTTC:
+            =@Plobby2notnullavgTTC
+            
+            %br
+            Big:
+            =@Plobby2top
+        
+        %tr
+          %td
+            =@Ccount
+            Cents (100 <= ridecount < 500)
+            %br
+            prompts: 
+            =@Clobby
+            %br
+            drops: 
+            =@Clobbydrops
+            %br
+            !nulls: 
+            =@Clobbynotnull
+            %br
+            !nAvgTTC:
+            =@ClobbynotnullavgTTC
+            %br
+            Big:
+            =@Clobbytop
+          %td
+            prompts:
+            =@Clobby0
+            %br
+            drops:
+            =@Clobby0drops
+            %br
+            !nulls: 
+            =@Clobby0notnull
+            %br
+            !nAvgTTC:
+            =@Clobby0notnullavgTTC
+            %br
+            Big:
+            =@Clobby0top
+          %td
+            prompts:
+            =@Clobby1
+            %br
+            drops:
+            =@Clobby1drops
+            %br
+            !nulls: 
+            =@Clobby1notnull
+            %br
+            !nAvgTTC:
+            =@Clobby1notnullavgTTC
+            %br
+            Big:
+            =@Clobby1top
+          %td
+            prompts:
+            =@Clobby2
+            %br
+            drops:
+            =@Clobby2drops
+            %br
+            !nulls:
+            =@Clobby2notnull
+            %br
+            !nAvgTTC:
+            =@Clobby2notnullavgTTC
+            %br
+            Big:
+            =@Clobby2top
+
+        %tr
+          %td
+            =@Tcount
+            Trickery (ridecount >= 500)
+            %br
+            prompts: 
+            =@Tlobby
+            %br
+            drops: 
+            =@Tlobbydrops
+            %br
+            !nulls: 
+            =@Tlobbynotnull
+            %br
+            !nAvgTTC:
+            =@TlobbynotnullavgTTC
+            %br
+            Big:
+            =@Tlobbytop
+          %td
+            prompts:
+            =@Tlobby0
+            %br
+            drops:
+            =@Tlobby0drops
+            %br
+            !nulls: 
+            =@Tlobby0notnull
+            %br
+            !nAvgTTC:
+            =@Tlobby0notnullavgTTC
+            %br
+            Big:
+            =@Tlobby0top
+          %td
+            prompts:
+            =@Tlobby1
+            %br
+            drops:
+            =@Tlobby1drops
+            %br
+            !nulls: 
+            =@Tlobby1notnull
+            %br
+            !nAvgTTC:
+            =@Tlobby1notnullavgTTC
+            %br
+            Big:
+            =@Tlobby1top
+          %td
+            prompts:
+            =@Tlobby2
+            %br
+            drops:
+            =@Tlobby2drops
+            %br
+            !nulls:
+            =@Tlobby2notnull
+            %br
+            !nAvgTTC:
+            =@Tlobby2notnullavgTTC
+            %br
+            Big:
+            =@Tlobby2top
+

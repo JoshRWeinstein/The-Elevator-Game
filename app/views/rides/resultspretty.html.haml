@@ -1,0 +1,104 @@
+!!!
+%html
+  %head
+    %title You're in an elevator! Click your way to the top!
+    = stylesheet_link_tag 'application.css', :media => 'screen, projection'
+      
+  %body{:style => "text-align: center; width: 100%; margin: 0px auto"}
+    #left
+      %h3 
+        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftheelevatorgame.com&amp;send=false&amp;layout=button_count&amp;width=40&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=195692220502556" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:21px;" allowTransparency="true"></iframe>
+        %span{:style=>"margin-right: 25px; margin-top: 0px; float:right;"} TheElevatorGame.com
+      %h4
+        Click your way to the top
+      %a{:href => "/leaders", :style => "color: gold"} The Leaderboard
+      %br
+      %br
+
+      %hr
+      %h2{:style => "color: red"} 
+        Click on floor...
+      %h1{:style => "color: red"} 
+        = @floor
+      #div{:style => "margin-top: 20px"}
+        %hr
+      
+        %br
+        This is a project for a
+        %br
+        %a{:href => "http://www.joshrweinstein.com", :style => "color: white"}JoshRWeinstein.com
+        %br
+        blog post on UX
+        
+    #right
+      %table{:style=> "padding: 20px; text-align: center; width: 700px; margin: 20px auto"}
+        %tr
+          %td{:style => "font-size: 25px"} Config 0: Normal elevator, lobby button up top
+        
+          %td{:style => "font-size: 25px"} Config 1: Normal elevator
+        
+          %td{:style => "font-size: 25px"} Config 2: Upside-down buttons, bottom lobby button  
+        %tr
+          %td{:colspan => "5"} Experiment 1: The Lobby
+        %tr{:style => "font-size: 25px"}
+          %td{:style => "font-size: 25px"}
+            Lobby prompts: 
+            %br
+            =@lobby0
+            %br
+            %br
+            Lobby !nulls 
+            %br
+            =@lobby0notnull
+            %br
+            %br
+            Lobby Top
+            %br
+            =@lobby0top                  
+          %td
+          %td{:style => "font-size: 25px"}
+            Lobby2 prompts 
+            %br
+            =@lobby2
+            %br
+            %br
+            Lobby2 !nulls: 
+            %br
+            =@lobby2notnull
+            %br
+            %br
+            Lobby2 Top
+            %br
+            =@lobby2top          
+        %tr{:style => "font-size: 25px"}
+          %td{:colspan=> "3"} Unskilled (<=21 ridecount)
+        %tr{:style => "font-size: 25px"}
+          %td{:style => "font-size: 25px"}
+            USLobby prompts: 
+            %br
+            =@USlobby0
+            %br
+            %br
+            Lobby !nulls 
+            %br
+            =@USlobby0notnull
+            %br
+            %br
+            Lobby "Top"
+            %br
+            =@USlobby0top                  
+          %td
+          %td{:style => "font-size: 25px"}
+            Lobby2 prompts 
+            %br
+            =@USlobby2
+            %br
+            %br
+            Lobby2 !nulls: 
+            %br
+            =@USlobby2notnull
+            %br
+            %br
+            Lobby2 "Top"
+            %br
+            =@USlobby2top          
