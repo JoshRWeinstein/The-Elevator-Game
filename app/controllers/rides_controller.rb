@@ -120,6 +120,8 @@ class RidesController < ApplicationController
     @Ctype = "Cents: 100-499"
     @Ttype = "Tricks: 500+"
     
+    @buckets = ['A', 'US', 'S', 'P', 'C', 'T']
+    
 
     
     #all lobbies
