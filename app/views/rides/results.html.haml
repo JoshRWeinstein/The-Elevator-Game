@@ -100,3 +100,13 @@
                 %br
                 !nAvgTTC:
                 =eval("@#{x}notlob#{jw}notnullavgTTC")
+          -#
+            %tr
+              %td{:colspan => "4"} Distribution of Ridecounts
+            %tr
+              %td
+              - @ridecountbucket.each do |z|
+                =@z
+                :
+                =@ridecountbucket[:z]
+                %br
