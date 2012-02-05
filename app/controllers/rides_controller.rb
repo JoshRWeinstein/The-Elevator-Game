@@ -176,13 +176,16 @@ class RidesController < ApplicationController
       @#{x}count = @#{x}0count + @#{x}1count + @#{x}2count")
     end
     
-    @ridecountbucket = 0
-    #@jw2 = Usersession.all
-    #@jw2.each do |z|
-      #if z[:ridecount]
-        #@ridecountbucket[eval("z[:ridecount]")] +=1
-      #end
-    #end
+    @jw2 = Usersession.all.flatten
+    @ridecountbucket = Array.new(@jw2.count+1, 0)
+    @jw2.each do |z|
+      if !z[:ridecount].nil?
+        @temp = z[:ridecount] 
+        if @ridecountbucket[eval("#{@temp}")]
+          @ridecountbucket[eval("#{@temp}")] += 1
+        end
+      end
+    end
     
 
   end
