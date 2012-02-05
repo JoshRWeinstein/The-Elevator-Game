@@ -7,6 +7,12 @@
     #results
       %table{:style=> "padding: 20px; text-align: center; width: 100%; margin: 20px auto; font-size: 14px"}
         %tr
+          %td{:colspan => "4"}
+            %a{:href => "http://www.joshrweinstein.com", :style => "color: gold"} TheElevatorGame.com
+            is a project for a
+            %a{:href => "http://www.joshrweinstein.com", :style => "color: gold"}JoshRWeinstein.com
+            blog post on UX
+        %tr
           %td Config
           %td 0: Normal elevator, lobby button up top
       
@@ -29,10 +35,10 @@
               drops: 
               =eval("@#{x}lobbydrops")
               %br
-              !nulls: 
+              !null: 
               =eval("@#{x}lobbynotnull")
               %br
-              !nAvgTTC:
+              !nAvgTTC (s):
               =eval("@#{x}lobbynotnullavgTTC")
               %br
               Bigs:
@@ -40,7 +46,7 @@
 
             - (0..2).each do |jw|
               %td
-                ppl:
+                users
                 =eval("@#{x}#{jw}count")
                 %br
                 prompts: 
@@ -49,7 +55,7 @@
                 drops:
                 =eval("@#{x}lobby#{jw}drops")
                 %br
-                !nulls: 
+                !null: 
                 =eval("@#{x}lobby#{jw}notnull")
                 %br
                 !nAvgTTC:
@@ -102,7 +108,7 @@
                 =eval("@#{x}notlob#{jw}notnullavgTTC")
           -#
         %tr
-          %td{:colspan => "4"} Distribution of Ridecounts
+          %td{:colspan => "4"} Experiment 3: Distribution of Ridecounts
         %tr
           %td{:colspan=>"4"}
             <img src="/distributionchart.png">

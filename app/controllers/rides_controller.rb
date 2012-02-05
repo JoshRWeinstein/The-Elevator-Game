@@ -22,7 +22,7 @@ class RidesController < ApplicationController
     redirect_to root_url
   end
   
-  ##setup different configurations 0) lobby top and bottom 1) standard 2) telephone [need to add lobby on bottom!!!]
+  ##setup different configurations 0) lobby top and bottom 1) standard 2) telephone, lobby on bottom
   ##always 4 rows 5 columns
   def show
     
