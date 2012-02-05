@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Elevatorgame::Application.config.secret_token = '5ba1fe6c0d611f3111d78e219b4091854b1165d0b340462a8fde01fa3b5e93ba8673147e1d8f764d1f1c2204e364ee4fe5a78cc6dc4730623b54241160585929'
+Elevatorgame::Application.config.secret_token = '490c03d162156a43ddbb810ee81ab52ab299407b596d97cd07f262ea24117f9159026667a1764d05463dfaff789079c5e1c09e9f8e0da7025ccc70dc5563b922'
