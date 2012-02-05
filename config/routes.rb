@@ -4,5 +4,5 @@ Elevatorgame::Application.routes.draw do
   match "rides/update" => 'rides#update'
   match "leaders" => 'rides#leaders'
   match "rides/nameentry" => 'rides#nameentry'
-  match "results" => "rides#results"
+  match "results" => "rides#staticresults"
 end

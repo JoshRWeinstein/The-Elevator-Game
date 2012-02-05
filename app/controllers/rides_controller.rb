@@ -1,5 +1,8 @@
 class RidesController < ApplicationController
   
+  def staticresults
+  end
+  
   def update
     @jw = Ride.find(params[:ride_id])
     if (params[:top])
