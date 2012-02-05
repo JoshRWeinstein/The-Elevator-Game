@@ -94,7 +94,8 @@ class RidesController < ApplicationController
   
   
   def isclean(name)
-    badwords = ['pussy', 'fuck', 'shit', 'bitch', 'fag', 'homo', 'cock', 'asshole', 'slut', 'whore']
+    #badwords go here...
+    badwords = ['ponies', 'rainbows', 'unicorns']
     badwords.each do |x|
       if name.index(x)
         return false
