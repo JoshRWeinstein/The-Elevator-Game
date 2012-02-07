@@ -3,6 +3,10 @@ class RidesController < ApplicationController
   def staticresults
   end
   
+  def all
+  @usersessions = Usersession.all
+  @rides = Ride.all
+  end
   def update
     @jw = Ride.find(params[:ride_id])
     if (params[:top])

@@ -1,0 +1,37 @@
+#right{:style => "background: white"}
+  %h1 Usersessions
+  - @usersessions.each do |printusersesh|
+    ID
+    =printusersesh.id
+    , Ridecount
+    =printusersesh.ridecount
+    , Floors
+    =printusersesh.floors
+    , Time  
+    =printusersesh.time
+    , Created_at
+    =printusersesh.created_at
+    , Updated_at
+    =printusersesh.updated_at
+    , Config
+    =printusersesh.config
+    %br
+    %br
+  %h1 Rides    
+  - @rides.each do |printrides|
+    ID
+    =printrides.id
+    , Session_id
+    =printrides.session_id
+    , Time To Click (TTC)
+    =printrides.timetoclick
+    , Floor
+    =printrides.floor
+    , Created_at
+    =printrides.created_at
+    , Updated_at
+    =printrides.updated_at
+    , Config
+    =printrides.config
+    %br
+    %br
