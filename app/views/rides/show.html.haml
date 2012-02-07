@@ -90,7 +90,7 @@
           %tr
             - if @floor == 1 
               %td{:colspan => "5", :class => "pickme"}
-                = form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
+                = form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :big => :true } do |f| 
                   1
             - else
               %td{:colspan => "5"}
@@ -112,7 +112,7 @@
           %tr
             - if @floor == 1 
               %td{:colspan => "5", :class => "pickme"}
-                = form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :top => :true } do |f| 
+                = form_for @ride, :url => { :action => "update", :ride_id => @ride.id, :big => :true } do |f| 
                   1
             - else
               %td{:colspan => "5"}

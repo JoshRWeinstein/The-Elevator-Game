@@ -7,10 +7,10 @@ class Ride < ActiveRecord::Base
   scope :lobby,
     where('floor = 1')
   
-  scope :top,
-    where('top = true')
+  scope :big,
+    where('big = true')
   
   scope :notnull,
-    where('top IS NOT NULL')
+    where('big IS NOT NULL')
     
 end
