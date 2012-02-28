@@ -168,18 +168,16 @@ class RidesController < ApplicationController
       (0..2).each do |jw|
         eval("@#{x}#{jw}count = Usersession#{eval("@#{x}scope")}.config#{jw}.count
         @#{x}#{jw} = Usersession#{eval("@#{x}scope")}.config#{jw}.collect {|u| u.rides}.flatten
-        @#{x}notlob#{jw} = @#{x}#{jw}.select{|u| u[:floor] == 1}.count
-        @#{x}notlob#{jw}big = @#{x}#{jw}.select{|u| u[:big] == true  and u[:timetoclick] <= 10}.count
-        @#{x}notlob#{jw}notnull = @#{x}#{jw}.select{|u| !u[:big].nil? and u[:floor] == 1  and u[:timetoclick] <= 10}.count
+        @#{x}notlob#{jw} = @#{x}#{jw}.select{|u| u[:floor] != 1}.count
+        @#{x}notlob#{jw}notnull = @#{x}#{jw}.select{|u| !u[:big].nil? and u[:floor] != 1  and u[:timetoclick] <= 10}.count
         @temp = 0
-        @#{x}notlob#{jw}notnullavgTTChold = @#{x}#{jw}.select{|u| !u[:big].nil? and u[:floor] == 1  and u[:timetoclick] <= 5}.flatten.map{|u| @temp += u[:timetoclick]}
+        @#{x}notlob#{jw}notnullavgTTChold = @#{x}#{jw}.select{|u| !u[:big].nil? and u[:floor] != 1  and u[:timetoclick] <= 5}.flatten.map{|u| @temp += u[:timetoclick]}
         @#{x}notlob#{jw}notnullavgTTC = @temp / @#{x}notlob#{jw}notnull
         @#{x}notlob#{jw}drops = @#{x}notlob#{jw} - @#{x}notlob#{jw}notnull")
       end
       eval("@#{x}notlob = @#{x}notlob0 + @#{x}notlob1 + @#{x}notlob2
       @#{x}notlobnotnull = @#{x}notlob0notnull + @#{x}notlob1notnull + @#{x}notlob2notnull
       @#{x}notlobdrops = @#{x}notlob0drops + @#{x}notlob1drops + @#{x}notlob2drops
-      @#{x}notlobbig = @#{x}notlob0big + @#{x}notlob1big + @#{x}notlob2big
       @#{x}notlobnotnullavgTTC = (@#{x}notlob0notnullavgTTC + @#{x}notlob1notnullavgTTC + @#{x}notlob2notnullavgTTC) / 3
       @#{x}count = @#{x}0count + @#{x}1count + @#{x}2count")
     end
